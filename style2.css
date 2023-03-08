@@ -1,0 +1,43 @@
+article {
+    width: 100%;
+    position: relative;
+    font: 400 18px arial;
+    line-height: 160%;
+    padding: 0;
+    color: #222;
+    max-width: 700px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+img{
+    height: 2rem;
+    width: auto;
+    margin-right: 10px;
+    float: left;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.a-1{
+    background-color: rgb(247,247,248);
+}
+
+.a-2{
+    background-image: url('./assets/paper.gif');
+}
+
+.q-1{
+    background-image: url('https://picsum.photos/200/300');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+mark{
+    color: black;
+    background-color: rgba(255, 255, 255, 0.5);
+}

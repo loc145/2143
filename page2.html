@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Description</title>
+    <link rel="stylesheet" href="style2.css">
+    <script src="./data/data.js"></script>
+</head>
+<body>
+    <div class="container">
+        <article>
+            <div class="q-1">
+                <img onclick="backHome()" src="./assets/u-icon.png" alt="u-icon" title="Back to Homepage">
+                <p>
+                    <mark></mark>
+                </p>
+            </div>
+            <div class="a-1">
+                <img onclick="backHome()" src="./assets/bing-icon.png" alt="bing-icon" title="Back to Homepage">
+                <p></p>
+            </div>
+            <div class="a-2">
+                <img onclick="backHome()" src="./assets/chatgpt-icon.png" alt="chatgpt-icon" title="Back to Homepage">
+                <p></p>
+            </div>
+        </article>
+    </div>
+    <script>
+        const urlParams = new URLSearchParams(window.location.search);
+        const index = urlParams.get('index');
+        // console.log(index);
+
+        document.querySelector('.q-1 p mark').innerHTML = data[index-1][0];
+        document.querySelector('.a-1 p').innerHTML = data[index-1][1];
+        document.querySelector('.a-2 p').innerHTML = data[index-1][2];
+        function backHome(){
+            window.location.href = `index.html`;
+        }
+    </script>
+</body>
+</html>

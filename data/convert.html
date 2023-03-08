@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Conversion</title>
+</head>
+
+<style>
+	textarea{
+		width: 40%;
+		height: 70vh;
+	}
+    /* .container{
+        display: flex;
+        align-content: center;
+    } */
+</style>
+
+<body>
+    <div class="container">
+        <h3>Convert Multiline to Single-line with HTML format</h3>
+        <div class="text-in-out">
+            <textarea id="input"></textarea>
+            <textarea id="output"></textarea>
+        </div>
+    </div>
+	<button onclick="myFunc()">Click me to copy output to clipboard</button>
+
+
+	<script>
+		
+		function myFunc(){
+			const str = document.querySelector('#input').value;
+			const text = str
+				.replace(/\n/g, '<br>')
+				.replace(/'/g, "\\'")
+				.replace(/"/g, '\\"');
+			//Now you can assign it to data
+            document.querySelector('#output').value = text;
+            
+            navigator.clipboard.writeText(text);
+			console.log(text);
+		}
+		
+	</script>
+</body>
+</html>
