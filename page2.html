@@ -11,20 +11,25 @@
 <body>
     <div class="container">
         <article>
-            <div class="q-1">
-                <img onclick="backHome()" src="./assets/u-icon.png" alt="u-icon" title="Back to Homepage">
-                <p>
+            <section class="section-1">
+                <div class="u-list">
+                    <img onclick="backHome()" src="./assets/u-icon.png" alt="u-icon" title="Back to Homepage">
                     <mark></mark>
-                </p>
-            </div>
-            <div class="a-1">
+                </div>
+
+                <div class="next-previous">
+                    <button  class="btnLeft" title="Previous" onclick="previous()">&lt;</button>
+                    <button class="btnRight" title="Next" onclick="next()">&gt;</button>
+                </div>
+            </section>
+            <section class="section-2">
                 <img onclick="backHome()" src="./assets/bing-icon.png" alt="bing-icon" title="Back to Homepage">
                 <p></p>
-            </div>
-            <div class="a-2">
+            </section>
+            <section class="section-3">
                 <img onclick="backHome()" src="./assets/chatgpt-icon.png" alt="chatgpt-icon" title="Back to Homepage">
                 <p></p>
-            </div>
+            </section>
         </article>
     </div>
     <script>
@@ -32,11 +37,26 @@
         const index = urlParams.get('index');
         // console.log(index);
 
-        document.querySelector('.q-1 p mark').innerHTML = data[index-1][0];
-        document.querySelector('.a-1 p').innerHTML = data[index-1][1];
-        document.querySelector('.a-2 p').innerHTML = data[index-1][2];
+        document.querySelector('mark').innerHTML = data[index-1][0];
+        document.querySelector('.section-2 p').innerHTML = data[index-1][1];
+        document.querySelector('.section-3 p').innerHTML = data[index-1][2];
+
         function backHome(){
             window.location.href = `index.html`;
+        }
+
+        function previous(){
+            if(index>1){
+                window.location.href = `page2.html?index=${index-1}`;
+            }
+            
+        }
+
+        function next(){
+            if(index<215){
+                window.location.href = `page2.html?index=${index-1+2}`;
+            }
+            
         }
     </script>
 </body>

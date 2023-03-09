@@ -19,15 +19,27 @@
     <div class="container">
         <h3>Convert Multiline to Single-line with HTML format</h3>
         <div class="text-in-out">
-            <textarea id="input"></textarea>
-            <textarea id="output"></textarea>
+            <textarea id="input" onkeyup="myFunc()" placeholder="Type the input here..."></textarea>
+            <textarea id="output" placeholder="Here is the output... &#10This will auto paste to clipboard." readonly></textarea>
         </div>
     </div>
-	<button onclick="myFunc()">Click me to copy output to clipboard</button>
+    <button onclick="myFuncMark()">Mark counter</button>
+	<!-- <button onclick="myFunc()">Copy output to clipboard</button> -->
 
 
 	<script>
 		
+		function myFuncMark(){
+			const str = document.querySelector('#input').value;
+			const arr = str.split("\n\n");
+			let text = '';
+			for(let i = 0; i < arr.length; i++){
+				text+=`${i+1}. ${arr[i]}\n\n`;
+			}
+			document.querySelector('#input').value = text.replace(/\n\n$/, "");
+			myFunc();
+		}
+
 		function myFunc(){
 			const str = document.querySelector('#input').value;
 			const text = str
