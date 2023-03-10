@@ -81,3 +81,23 @@ button{
     background-color: #007BFF;
     color: white;
 }
+
+#scrollToTop {
+    position: fixed;
+    z-index: 9999;
+
+    background-color: rgba(97, 106, 137, 0.5); /* Set the background color */
+    border: none; /* Remove the border */
+    color: white; /* Set the text color */
+    text-align: center; /* Center the text */
+    text-decoration: none; /* Remove underline */
+    font-size: 13px; /* Set the font size */
+    cursor: pointer; /* Change cursor on hover */
+    border-radius: 50%; /* Set border-radius to 50% to make it round */
+    width: 30px; /* Set the width and height */
+    height: 30px;
+    
+    /* position: absolute; */
+    bottom: 5px;
+    right: 10px;
+ }

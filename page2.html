@@ -5,11 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Description</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
     <link rel="stylesheet" href="style2.css">
     <script src="./data/data.js"></script>
 </head>
 <body>
     <div class="container">
+        <button id="scrollToTop">
+			<i class="fa-solid fa-chevron-up"></i>
+		</button>
         <article>
             <section class="section-1">
                 <div class="u-list">
@@ -18,8 +22,12 @@
                 </div>
 
                 <div class="next-previous">
-                    <button  class="btnLeft" title="Previous" onclick="previous()">&lt;</button>
-                    <button class="btnRight" title="Next" onclick="next()">&gt;</button>
+                    <button  class="btnLeft" title="Previous" onclick="previous()">
+                        <i class="fa-solid fa-backward-step"></i>
+                    </button>
+                    <button class="btnRight" title="Next" onclick="next()">
+                        <i class="fa-solid fa-forward-step"></i>
+                    </button>
                 </div>
             </section>
             <section class="section-2">
@@ -58,6 +66,24 @@
             }
             
         }
+
+        /**/
+        const scrollToTopButton = document.getElementById('scrollToTop');
+
+        scrollToTopButton.addEventListener('click', () => {
+        const scrollStep = -window.scrollY / (500 / 15); // 500ms duration, 15ms interval
+        let scrollAnimation = requestAnimationFrame(step);
+        
+        function step() {
+            if (window.scrollY === 0) {
+            cancelAnimationFrame(scrollAnimation);
+            } else {
+            window.scrollBy(0, scrollStep);
+            scrollAnimation = requestAnimationFrame(step);
+            }
+        }
+        });
+        
     </script>
 </body>
 </html>
