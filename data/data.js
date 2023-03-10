@@ -71,7 +71,7 @@ const data = [
     "wpejfjefjwfjwe"],
       //14
   [
-    "sustainable adjective<br>affordable adjective<br>convict verb<br>earnings noun<br>slot noun<br>foundation noun<br>interface noun<br>cattle noun<br>predictable adjective<br>credibility noun<br>", 
+    "slot noun<br>sustainable adjective<br>affordable adjective<br>convict verb<br>earnings noun<br>foundation noun<br>interface noun<br>cattle noun<br>predictable adjective<br>credibility noun<br>", 
     "1. Sustainable (adj): Bền vững, có thể duy trì được<br>Ví dụ: Chúng ta cần phải phát triển các sản phẩm có tính năng sustainable để giảm thiểu tác động tiêu cực đến môi trường.<br><br>2. Affordable (adj): Phải chăng, giá cả hợp lý<br>Ví dụ: Nhà ở affordable là một vấn đề khó khăn đối với nhiều người.<br><br>3. Convict (v): Kết án, tuyên án<br>Ví dụ: Tòa án đã convict hắn vì tội giết người.<br><br>4. Earnings (n): Thu nhập, lợi nhuận<br>Ví dụ: Doanh nghiệp phải tăng earnings nếu muốn phát triển và mở rộng hoạt động kinh doanh.<br><br>5. Slot (n): Khe, lỗ hổng<br>Ví dụ: Chúng tôi cần thêm một slot để đáp ứng nhu cầu của khách hàng.<br><br>6. Foundation (n): Nền tảng, cơ sở<br>Ví dụ: Các giáo viên phải đảm bảo rằng học sinh của họ có foundation vững chắc trước khi bước vào bài học mới.<br><br>7. Interface (n): Giao diện, kết nối<br>Ví dụ: Interface đơn giản và dễ sử dụng là yếu tố quan trọng trong việc thiết kế một ứng dụng hoặc trang web.<br><br>8. Cattle (n): Trâu bò<br>Ví dụ: Cattle là động vật quan trọng trong nền kinh tế nông nghiệp.<br><br>9. Predictable (adj): Dễ dự đoán, có thể đoán trước được<br>Ví dụ: Thị trường tài chính có những biến động không predictable.<br><br>10. Credibility (n): Uy tín, đáng tin cậy<br>Ví dụ: Credibility của người lãnh đạo được xác định bởi những hành động và lời nói của họ.", 
     "wpejfjefjwfjwe"],
       //15
@@ -91,7 +91,7 @@ const data = [
     "wpejfjefjwfjwe"],
       //18
   [
-    "determination noun<br>gesture noun<br>tribunal noun<br>unfold verb<br>harbour noun<br>candle noun<br>outstanding adjective<br>prey noun<br>fame noun<br>preach verb<br>", 
+    "unfold verb<br>determination noun<br>gesture noun<br>tribunal noun<br>harbour noun<br>candle noun<br>outstanding adjective<br>prey noun<br>fame noun<br>preach verb", 
     "1. Determination (n): quyết tâm, sự kiên trì<br>Ví dụ: Với determination, anh ta đã vượt qua được những khó khăn để đạt được mục tiêu của mình.<br><br>2. Gesture (n): cử chỉ, điệu bộ<br>Ví dụ: Những gesture nhỏ nhưng ý nghĩa có thể giúp bạn tạo ra ấn tượng tốt với người khác.<br><br>3. Tribunal (n): tòa án, hội đồng xét xử<br>Ví dụ: Vụ việc này sẽ được đưa lên tribunal để được giải quyết.<br><br>4. Unfold (v): mở rộng, phát triển<br>Ví dụ: Câu chuyện kể về việc người anh hùng làm thế nào để unfold sự thật về vụ án.<br><br>5. Harbour (n): cảng, bến cảng<br>Ví dụ: Harbour đóng vai trò quan trọng trong việc vận chuyển hàng hóa.<br><br>6. Candle (n): nến<br>Ví dụ: Chúng tôi đã đốt nhiều candle để tạo không gian lãng mạn cho bữa tiệc.<br><br>7. Outstanding (adj): nổi bật, xuất sắc<br>Ví dụ: Cô ấy luôn được đánh giá là một outstanding nhân viên trong công ty.<br><br>8. Prey (n): con mồi<br>Ví dụ: Các con báo thường đi săn các loại prey khác nhau để sống sót.<br><br>9. Fame (n): sự nổi tiếng, danh tiếng<br>Ví dụ: Anh ta đã đạt được một mức độ fame lớn sau khi giành được giải thưởng danh giá.<br><br>10. Preach (v): thuyết giáo, giảng đạo<br>Ví dụ: Tôi thường nghe ông giáo dục giáo dục và preach về tình yêu thương và sự tha thứ.", 
     "wpejfjefjwfjwe"],
       //19
@@ -121,7 +121,7 @@ const data = [
     "wpejfjefjwfjwe"],
       //24
   [
-    "predominantly adverb<br>forthcoming adjective<br>dramatically adverb<br>clinic noun<br>suck verb<br>undergraduate noun<br>widow noun<br>uphold verb<br>ballot noun<br>gambling noun<br>", 
+    "clinic noun<br>predominantly adverb<br>forthcoming adjective<br>dramatically adverb<br>suck verb<br>undergraduate noun<br>widow noun<br>uphold verb<br>ballot noun<br>gambling noun", 
     "pwiejfjjjiew", 
     "wpejfjefjwfjwe"],
       //25
@@ -156,7 +156,7 @@ const data = [
     "wpejfjefjwfjwe"],
       //31
   [
-    "memorable adjective<br>blast verb<br>suspicion noun<br>specify verb<br>expire verb<br>roughly adverb<br>trophy noun<br>invoke verb<br>journalism noun<br>pathway noun<br>", 
+    "expire verb<br>memorable adjective<br>blast verb<br>suspicion noun<br>specify verb<br>roughly adverb<br>trophy noun<br>invoke verb<br>journalism noun<br>pathway noun", 
     "pwiejfjjjiew", 
     "wpejfjefjwfjwe"],
       //32
@@ -251,7 +251,7 @@ const data = [
     "wpejfjefjwfjwe"],
       //50
   [
-    "accountability noun<br>timely adjective<br>exclusively adverb<br>assemble verb<br>downtown noun<br>ultimate adjective<br>endorse verb<br>parliamentary adjective<br>disposal noun<br>removal noun<br>", 
+    "assemble verb<br>accountability noun<br>timely adjective<br>exclusively adverb<br>downtown noun<br>ultimate adjective<br>endorse verb<br>parliamentary adjective<br>disposal noun<br>removal noun<br>", 
     "pwiejfjjjiew", 
     "wpejfjefjwfjwe"],
       //51
@@ -361,7 +361,7 @@ const data = [
     "wpejfjefjwfjwe"],
       //72
   [
-    "correspondence noun<br>forth adverb<br>interactive adjective<br>firearm noun<br>prominent adjective<br>nearby adverb<br>entity noun<br>vertical adjective<br>critique noun<br>lyric noun<br>", 
+    "forth adverb<br>correspondence noun<br>interactive adjective<br>firearm noun<br>prominent adjective<br>nearby adverb<br>entity noun<br>vertical adjective<br>critique noun<br>lyric noun", 
     "pwiejfjjjiew", 
     "wpejfjefjwfjwe"],
       //73
@@ -447,7 +447,7 @@ const data = [
     "wpejfjefjwfjwe"],
       //89
   [
-    "substantially adverb<br>suffering noun<br>inclined adjective<br>uncertainty noun<br>sensation noun<br>negotiate verb<br>spin noun<br>overseas adverb<br>concession noun<br>plug noun<br>", 
+    "suffering noun<br>substantially adverb<br>inclined adjective<br>uncertainty noun<br>sensation noun<br>negotiate verb<br>spin noun<br>overseas adverb<br>concession noun<br>plug noun", 
     "pwiejfjjjiew", 
     "wpejfjefjwfjwe"],
       //90
@@ -467,7 +467,7 @@ const data = [
     "wpejfjefjwfjwe"],
       //93
   [
-    "conventional adjective<br>interfere verb<br>anxiety noun<br>institutional adjective<br>regime noun<br>maximize verb<br>obsession noun<br>endless adjective<br>accountant noun<br>incorporate verb<br>", 
+    "interfere verb<br>conventional adjective<br>anxiety noun<br>institutional adjective<br>regime noun<br>maximize verb<br>obsession noun<br>endless adjective<br>accountant noun<br>incorporate verb", 
     "pwiejfjjjiew", 
     "wpejfjefjwfjwe"],
       //94
@@ -507,7 +507,7 @@ const data = [
     "wpejfjefjwfjwe"],
       //101
   [
-    "simultaneously adverb<br>presently adverb<br>depart verb<br>miracle noun<br>backing noun<br>revision noun<br>dull adjective<br>intent noun<br>noble adjective<br>warrant noun<br>", 
+    "presently adverb<br>simultaneously adverb<br>depart verb<br>miracle noun<br>backing noun<br>revision noun<br>dull adjective<br>intent noun<br>noble adjective<br>warrant noun", 
     "pwiejfjjjiew", 
     "wpejfjefjwfjwe"],
       //102
@@ -543,7 +543,7 @@ const data = [
     "wpejfjefjwfjwe"],
       //108
   [
-    "presumably adverb<br>spare adjective<br>inclusion noun<br>sponsorship noun<br>verdict noun<br>auto noun<br>stimulate verb<br>cooperative adjective<br>vocal adjective<br>execute verb<br>", 
+    "spare adjective<br>presumably adverb<br>inclusion noun<br>sponsorship noun<br>verdict noun<br>auto noun<br>stimulate verb<br>cooperative adjective<br>vocal adjective<br>execute verb", 
     "pwiejfjjjiew", 
     "wpejfjefjwfjwe"],
       //109
@@ -578,7 +578,7 @@ const data = [
     "wpejfjefjwfjwe"],
       //115
   [
-    "integrated adjective<br>echo noun<br>poll noun<br>dairy adjective<br>ideology noun<br>panic noun<br>counter verb<br>valid adjective<br>spin verb<br>lap noun<br>", 
+    "echo noun<br>integrated adjective<br>poll noun<br>dairy adjective<br>ideology noun<br>panic noun<br>counter verb<br>valid adjective<br>spin verb<br>lap noun", 
     "pwiejfjjjiew", 
     "wpejfjefjwfjwe"],
       //116
@@ -719,7 +719,7 @@ const data = [
 
       //143
   [
-    "nonetheless adverb<br>archive noun<br>seminar noun<br>contrary noun<br>renew verb<br>failed adjective<br>latter adjective<br>limitation noun<br>make-up noun<br>specimen noun<br>", 
+    "archive noun<br>nonetheless adverb<br>seminar noun<br>contrary noun<br>renew verb<br>failed adjective<br>latter adjective<br>limitation noun<br>make-up noun<br>specimen noun", 
     "pwiejfjjjiew", 
     "wpejfjefjwfjwe"],
       //144
@@ -834,7 +834,7 @@ const data = [
     "wpejfjefjwfjwe"],
       //166
   [
-    "championship noun<br>leak verb<br>sword noun<br>suburban adjective<br>vessel noun<br>surveillance noun<br>peculiar adjective<br>tolerate verb<br>addiction noun<br>constraint noun<br>", 
+    "leak verb<br>championship noun<br>sword noun<br>suburban adjective<br>vessel noun<br>surveillance noun<br>peculiar adjective<br>tolerate verb<br>addiction noun<br>constraint noun", 
     "pwiejfjjjiew", 
     "wpejfjefjwfjwe"],
       //167
@@ -899,7 +899,7 @@ const data = [
     "wpejfjefjwfjwe"],
       //179
   [
-    "appealing adjective<br>large-scale adjective<br>racist adjective<br>equivalent noun<br>compel verb<br>terribly adverb<br>homeland noun<br>parallel noun<br>invade verb<br>settler noun<br>", 
+    "compel verb<br>appealing adjective<br>large-scale adjective<br>racist adjective<br>equivalent noun<br>terribly adverb<br>homeland noun<br>parallel noun<br>invade verb<br>settler noun", 
     "pwiejfjjjiew", 
     "wpejfjefjwfjwe"],
       //180
@@ -964,7 +964,7 @@ const data = [
     "wpejfjefjwfjwe"],
       //192
   [
-    "consistently adverb<br>dealer noun<br>carve verb<br>bleed verb<br>legendary adjective<br>substitution noun<br>economist noun<br>honesty noun<br>interim adjective<br>reproduce verb<br>", 
+    "dealer noun<br>consistently adverb<br>carve verb<br>bleed verb<br>legendary adjective<br>substitution noun<br>economist noun<br>honesty noun<br>interim adjective<br>reproduce verb", 
     "pwiejfjjjiew", 
     "wpejfjefjwfjwe"],
       //193
@@ -979,7 +979,7 @@ const data = [
     "wpejfjefjwfjwe"],
       //195
   [
-    "permanently adverb<br>index noun<br>courtesy noun<br>deposit noun<br>non-profit adjective<br>craft noun<br>well-being noun<br>therapist noun<br>preference noun<br>severely adverb<br>", 
+    "index noun<br>permanently adverb<br>courtesy noun<br>deposit noun<br>non-profit adjective<br>craft noun<br>well-being noun<br>therapist noun<br>preference noun<br>severely adverb", 
     "pwiejfjjjiew", 
     "wpejfjefjwfjwe"],
       //196
@@ -1034,7 +1034,7 @@ const data = [
     "wpejfjefjwfjwe"],
       //206
   [
-    "nationwide adjective<br>liberal adjective<br>query noun<br>dependent adjective<br>dedication noun<br>copyright noun<br>availability noun<br>oxygen noun<br>stunning adjective<br>shoot noun<br>", 
+    "query noun<br>nationwide adjective<br>liberal adjective<br>dependent adjective<br>dedication noun<br>copyright noun<br>availability noun<br>oxygen noun<br>stunning adjective<br>shoot noun", 
     "pwiejfjjjiew", 
     "wpejfjefjwfjwe"],
       //207
@@ -1074,7 +1074,7 @@ const data = [
     "wpejfjefjwfjwe"],
       //214
   [
-    "backdrop noun<br>militia noun<br>eager adjective<br>", 
+    "backdrop noun<br>militia noun<br>eager adjective<br>ethical adjective<br>shelter noun<br>fascinating adjective<br>mysterious adjective<br>prospect noun<br>campaign noun<br>landscape noun", 
     "pwiejfjjjiew", 
     "wpejfjefjwfjwe"],
 
