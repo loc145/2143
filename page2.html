@@ -91,6 +91,17 @@
         }
         });
         
+        document.addEventListener('keydown', function(event){
+            switch(event.key) {
+            case 'ArrowRight':
+                next();
+                break;
+            case 'ArrowLeft':
+                previous();
+                break;
+            }
+        })
+
     </script>
 </body>
 </html>
