@@ -101,3 +101,26 @@ button{
     bottom: 5px;
     right: 10px;
  }
+
+ .half-circle {
+    width: 50px;
+    height: 25px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    background-color: rgba(248,78,15, 0.5);
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-25px) rotate(180deg);
+    z-index: 9999;
+  }
+  
+  .half-circle-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(180deg);
+    color: #fff;
+    font-size: 16px;
+  }
+  

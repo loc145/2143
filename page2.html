@@ -11,6 +11,10 @@
 </head>
 <body>
     <div class="container">
+        <div class="half-circle" onclick="backHome()" style="cursor: pointer;" title="Back to Homepage">
+            <span class="half-circle-text"></span>
+        </div>
+          
         <button id="scrollToTop">
 			<i class="fa-solid fa-chevron-up"></i>
 		</button>
@@ -22,10 +26,10 @@
                 </div>
 
                 <div class="next-previous">
-                    <button  class="btnLeft" title="Previous" onclick="previous()">
+                    <button  class="btnLeft" title="Backward" onclick="previous()">
                         <i class="fa-solid fa-backward-step"></i>
                     </button>
-                    <button class="btnRight" title="Next" onclick="next()">
+                    <button class="btnRight" title="Forward" onclick="next()">
                         <i class="fa-solid fa-forward-step"></i>
                     </button>
                 </div>
@@ -43,6 +47,7 @@
     <script>
         const urlParams = new URLSearchParams(window.location.search);
         const index = urlParams.get('index');
+        document.querySelector('.half-circle-text').innerHTML = index;
         // console.log(index);
 
         document.querySelector('mark').innerHTML = data[index-1][0];
