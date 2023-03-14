@@ -2,12 +2,19 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
+    background: rgb(244,245,247);
+    background: linear-gradient(135deg, rgba(244,245,247,1) 0%, rgba(219,230,250,1) 100%);
+    height: 100vh;
+    margin: auto;
 }
 
 .container {
-    max-width: 98%;
+    max-width: 700px;
     margin: 0 auto;
     padding: 20px;
+    border-bottom: 5px solid transparent;
+    border-image: radial-gradient(circle, rgba(27,74,239,1) 0%, rgba(40,112,234,1) 100%);
+    border-image-slice: 1;
 }
 
 .grid {
@@ -31,8 +38,14 @@ li {
 }
 
 li:hover{
-    background-color: greenyellow;
+    background-color: #1B4AEF;
+    color: white;
 }
+
+footer {
+  text-align: center;
+}
+
 
 @media (max-width: 768px) {
     .grid {

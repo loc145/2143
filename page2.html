@@ -8,10 +8,13 @@
     <link rel="icon" type="image/x-icon" href="./assets/favicon.ico">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
     <link rel="stylesheet" href="style2.css">
-    <script src="./data/data.js"></script>
+    <script src="./data/words.js"></script>
 </head>
 <body>
     <div class="container">
+        <span class="fade-copy">Copied</span>
+
+
         <div class="half-circle" onclick="backHome()" style="cursor: pointer;" title="Back to Homepage">
             <span class="half-circle-text"></span>
         </div>
@@ -19,89 +22,20 @@
         <button id="scrollToTop">
 			<i class="fa-solid fa-chevron-up"></i>
 		</button>
+
+
         <article>
             <section class="section-1">
-                <!-- <img src="https://picsum.photos/200/300" class="randImg"> -->
-                <div class="u-list">
-                    <img onclick="backHome()" src="./assets/u-icon.png" alt="u-icon" title="Back to Homepage" class="icon">
-                    <mark></mark>
-                </div>
-
-                <div class="next-previous">
-                    <button  class="btnLeft" title="Backward" onclick="previous()">
-                        <i class="fa-solid fa-backward-step"></i>
-                    </button>
-                    <button class="btnRight" title="Forward" onclick="next()">
-                        <i class="fa-solid fa-forward-step"></i>
-                    </button>
-                </div>
+<!--                 <button><a href="https://google.com">anh</a></button>
+                <button><a href="https://google.com">yeu</a></button>
+                <button><a href="https://google.com">em</a></button> -->
             </section>
-            <section class="section-2">
-                <img onclick="backHome()" src="./assets/bing-icon.png" alt="bing-icon" title="Back to Homepage" class="icon">
-                <p></p>
-            </section>
-            <section class="section-3">
-                <img onclick="backHome()" src="./assets/chatgpt-icon.png" alt="chatgpt-icon" title="Back to Homepage" class="icon">
+            <section id="section-2">
+                <img class="icon" onclick="copy()" src="./assets/bing-icon.png" alt="bing-icon" title="Copy">
                 <p></p>
             </section>
         </article>
     </div>
-    <script>
-        const urlParams = new URLSearchParams(window.location.search);
-        const index = urlParams.get('index');
-        document.querySelector('.half-circle-text').innerHTML = index;
-        // console.log(index);
-
-        document.querySelector('mark').innerHTML = data[index-1][0];
-        document.querySelector('.section-2 p').innerHTML = data[index-1][1];
-        document.querySelector('.section-3 p').innerHTML = data[index-1][2];
-
-        function backHome(){
-            window.location.href = `index.html`;
-        }
-
-        function previous(){
-            if(index>1){
-                window.location.href = `page2.html?index=${index-1}`;
-            }
-            
-        }
-
-        function next(){
-            if(index<215){
-                window.location.href = `page2.html?index=${index-1+2}`;
-            }
-            
-        }
-
-        /**/
-        const scrollToTopButton = document.getElementById('scrollToTop');
-
-        scrollToTopButton.addEventListener('click', () => {
-        const scrollStep = -window.scrollY / (500 / 15); // 500ms duration, 15ms interval
-        let scrollAnimation = requestAnimationFrame(step);
-        
-        function step() {
-            if (window.scrollY === 0) {
-            cancelAnimationFrame(scrollAnimation);
-            } else {
-            window.scrollBy(0, scrollStep);
-            scrollAnimation = requestAnimationFrame(step);
-            }
-        }
-        });
-        
-        document.addEventListener('keydown', function(event){
-            switch(event.key) {
-            case 'ArrowRight':
-                next();
-                break;
-            case 'ArrowLeft':
-                previous();
-                break;
-            }
-        })
-
-    </script>
+    <script src="script2.js"></script>
 </body>
 </html>
