@@ -1,7 +1,7 @@
 article {
     width: 100%;
     position: relative;
-    font: 400 14px arial;
+    font: 400 16px arial;
     line-height: 160%;
     padding: 0;
     color: #222;
@@ -11,6 +11,7 @@ article {
 .container{
     display: flex;
     justify-content: center;
+    margin-bottom: 50px;
 }
 
 #section-2{
