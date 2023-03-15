@@ -6,6 +6,7 @@ article {
     padding: 0;
     color: #222;
     max-width: 700px;
+    margin-top: 30px;
 }
 
 .container{
@@ -81,14 +82,33 @@ button:hover{
     height: 25px;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
-    background-color: rgba(248,78,15, 0.5);
     position: fixed;
     top: 0;
-    left: 50%;
     transform: translateX(-25px) rotate(180deg);
     z-index: 9998;
   }
   
+  .half-circle-left{
+    left: 35%;
+    border-radius: 50%;
+  }
+
+  .half-circle-right{
+    left: 65%;
+    border-radius: 50%;
+  }
+
+  .half-circle-mid{
+    left: 50%;
+    background-color: rgba(248,78,15, 0.5);
+  }
+
+  .translate-icon{
+    width: 50px;
+    height: 50px;
+    opacity: 0.5;
+  }
+
   .half-circle-text {
     position: absolute;
     top: 50%;

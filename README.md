@@ -5,5 +5,8 @@ Tips:<br>
 + Click orange-half-cicle for back to Homepage<br>
 + Click Bing-icon for copy story to clipboard<br>
 + You can use 'translate this page' feature in your brower for more undertand the story<br>
+
+If you use mobile browser, I have a recommendation:<br>
++ Install Google Translate & Yandex Translate on your smartphone for better experience.<br>
 <br>
 Hope this helps!

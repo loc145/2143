@@ -52,6 +52,41 @@ function backHome(){
 }
 
 
+
+/**/
+function onlineTranslate(name){
+  
+    const text = document.querySelector('p').innerHTML
+                      .replace(/<br>/g, '%0A');
+
+    if(text == ''){
+          alert('Please choose a word first.')
+    }
+    else{
+          const width = 1000;
+          const height = 500;
+
+          const top = Math.floor(screen.height/2 - height/2) - 100;
+          const left = Math.floor(screen.width/2 - width/2);
+
+          let url;
+          if(name.classList[1] == 'half-circle-left'){
+            url = `https://translate.google.com/?hl=vi&tab=TT&sl=en&tl=vi&text=${text}&op=translate`;
+          }
+          else if(name.classList[1] == 'half-circle-right'){
+            url = `https://translate.yandex.com/?source_lang=en&target_lang=vi&text=${text}`;
+          }
+
+          window.open(
+          url,
+          'popUpWindow',
+          `width=${width}, height=${height}, top=${top}, left=${left},
+          toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=yes, resizable=yes`); 
+    }
+}
+
+
+
 /**/
 const scrollToTopButton = document.getElementById('scrollToTop');
 
