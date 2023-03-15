@@ -4,7 +4,7 @@ Link: https://loc145.github.io/2143/<br>
 Tips:<br>
 + Click orange-half-cicle for back to Homepage<br>
 + Click Bing-icon for copy story to clipboard<br>
-+ You can use 'translate this page' feature in your brower for more undertand the story<br>
++ You can use default feature 'translate this page' in your brower for more undertand the story<br>
 
 Translated feature: English -> Vietnamese<br>
 
