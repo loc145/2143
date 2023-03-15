@@ -5,7 +5,7 @@ document.querySelector('.half-circle-text').innerHTML = index;
 
 /*generate buttons*/
 
-for (let i = (index-1)*100; i < index*100-1; i++) {
+for (let i = (index-1)*100; i < index*100; i++) {
 
   if(Object.keys(words)[i] !== undefined){
     const button = document.createElement("button");
