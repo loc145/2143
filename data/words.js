@@ -1,28 +1,32 @@
+/*
+When I was in school, I had a hard time learning new words. My teacher always told me to use a dictionary, but I found it boring and tedious. One day, she gave me a list of words to learn for a test. One of them was 'encompass'. I had no idea what it meant, so I decided to make up my own definition. I thought it sounded like a fancy way of saying 'hug'. So I wrote down: "Encompass: to hug someone or something very tightly." The next day, we had the test. One of the questions was: "What does 'encompass' mean?" I confidently wrote down my answer and handed in my paper. A few days later, I got my paper back. There was a big red X on my answer and a note from the teacher: "Encompass: to include or contain something; to cover or surround something completely. Please use a dictionary next time." I felt so embarrassed and foolish. How could I have been so wrong? That's when I learned that making up definitions is not a good way to expand your vocabulary.
+*/
+
 const words = {
 /* 1 */
 'encompass (verb)':
-``,
+`Encompass is a verb that means to include or cover something completely. For example, if you say that your hobbies encompass reading, writing and knitting, it means that you do all of those things and nothing else. If you say that your vacation encompassed the whole continent of Europe, it means that you visited every single country and left no stone unturned. Encompass is a word that can make you sound very impressive or very boring, depending on how you use it.`,
 /* 2 */
 'reform (verb)':
-``,
+`Reform (verb): to change something for the better, usually by getting rid of its bad parts or habits. For example, you can reform a criminal by teaching them how to knit sweaters instead of stealing cars. You can also reform a system by making it more fair and efficient, like replacing the tax code with a simple lottery. Reforming is not always easy or popular, but it can lead to positive outcomes in the long run. Unless you reform something that was already good, like pizza. Then you're just ruining it.`,
 /* 3 */
 'loom (verb)':
-``,
+`Looming is not just something that spiders do with their webs or knitters do with their yarns. It's also a verb that means to appear large and threatening, especially in a vague or ominous way. For example, you might say that a deadline looms over your head, or that a dark cloud looms on the horizon. But don't worry, looming is not always bad. Sometimes it can be used to create suspense or excitement, like when you say that a surprise party looms for your friend, or that a big reveal looms at the end of a mystery novel. Looming can also be fun if you do it intentionally, like when you loom behind someone and scare them with a loud boo!`,
 /* 4 */
 'cemetery (noun)':
-``,
+`A cemetery is a place where people go to rest in peace after they die. But not everyone is peaceful in a cemetery. Some people like to visit their loved ones and bring them flowers or talk to them. Some people like to dig up graves and steal bones or jewelry. And some people like to dress up as ghosts and scare the living daylights out of anyone who comes near. A cemetery can be a very lively place, depending on who you are and what you do there.`,
 /* 5 */
 'intriguing (adjective)':
-``,
+`Intriguing is an adjective that means arousing curiosity or interest. For example, you might find it intriguing that your neighbor has a collection of stuffed animals in his backyard. Or you might find it intriguing that your boss always wears the same tie every day. Intriguing can also mean having a mysterious or fascinating quality. For example, you might find it intriguing that your date never reveals her last name. Or you might find it intriguing that your teacher always speaks in riddles. Intriguing is a word that can make anything sound more exciting and mysterious than it really is.`,
 /* 6 */
 'circulation (noun)':
-``,
+`Circulation is the noun form of circulate, which means to move around or flow in a loop. For example, blood circulates in your body, air circulates in your room, and rumors circulate in your school. Sometimes circulation can also mean the number of copies of a newspaper or magazine that are sold or distributed. For example, the circulation of The Onion is very high because people love to read fake news for laughs. But don't confuse circulation with circular reasoning, which is when you use your conclusion as your premise to prove your argument. For example, saying "The Onion is funny because it makes me laugh" is circular reasoning. That's not funny, that's just silly.`,
 /* 7 */
 'trademark (noun)':
-``,
+`A trademark is a word, symbol, or design that identifies the source of a product or service and distinguishes it from others. For example, the golden arches are a trademark of McDonald's, and the swoosh is a trademark of Nike. Trademarks are important because they help consumers avoid confusion and deception in the marketplace. However, trademarks can also cause trouble if they are too generic, too similar to existing ones, or too offensive to some groups. For example, you can't trademark the word "apple" for selling apples, you can't trademark "Starbucks" for selling coffee if there is already a Starbucks coffee chain, and you can't trademark "F*** You" for selling anything unless you want to get sued by angry customers.`,
 /* 8 */
 'patrol (verb)':
-``,
+`Patrol (verb): to walk or drive around an area in order to watch or guard it. For example: "The security guard patrolled the parking lot every night, looking for suspicious activity. He never found any, but he did find a lot of empty pizza boxes and soda cans. He wondered if the other guards were having a party without him."`,
 /* 9 */
 'mechanical (adjective)':
 ``,
