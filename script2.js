@@ -15,16 +15,49 @@ for (let i = (index-1)*100; i < index*100; i++) {
   }
 }
 
+let previous = '';
+let current = '';
+
 /*generate story*/
 function selected(button){
-  button.style.backgroundColor = '#1B4AEF';
-  button.style.color = 'white';
-  window.location.href = '#section-2';
-  const text = words[button.innerHTML]
-                .replace(/\n/g, '<br>');
 
-  document.querySelector('p').innerHTML = text;
+  //Highlight previous selected words
+  previous = current;
+  if(previous != ''){
+    previous.classList.remove('highlight-yellow');
+    previous.classList.add('highlight-blue')
+  }
+
+  //Highlight current selected word
+  current = button;
+  current.classList.add('highlight-yellow');
+  
+  //
+  window.location.href = '#section-2';
+
+  const currentText = current.innerHTML.match(/^[a-zA-Z-]+/)[0];
+  const CurrentText = currentText.charAt(0).toUpperCase() + currentText.slice(1);
+
+  const regex = new RegExp(`${currentText}`, 'g');
+  const Regex = new RegExp(`${CurrentText}`, 'g');
+
+  const text = words[button.innerHTML]
+                .replace(/\n/g, '<br>')
+                .replace(regex, `<mark>${currentText}</mark>`)
+                .replace(Regex, `<mark>${CurrentText}</mark>`)
+  //Uppercase first character of each paragraphs
+
+  const paragraphs = text.split("<br><br><mark>");
+
+  for (let i in paragraphs) {
+    paragraphs[i] = paragraphs[i].charAt(0).toUpperCase() + paragraphs[i].slice(1);
+  }
+
+  const newText = paragraphs.join("<br><br><mark>");
+
+  document.querySelector('p').innerHTML = newText;
 }
+
 
 /**/
 function copy(){
@@ -57,7 +90,8 @@ function backHome(){
 function onlineTranslate(name){
   
     const text = document.querySelector('p').innerHTML
-                      .replace(/<br>/g, '%0A');
+                      .replace(/<br>/g, '%0A')
+                      .replace(/<\/?mark>/g, '');
 
     if(text == ''){
           alert('Please choose a word first.')

@@ -49,6 +49,22 @@ button:hover{
     text-decoration: underline;
 }
 
+/*Highlight previous selected words*/
+.highlight-blue{
+  background-color: #1B4AEF;
+  color: white;
+}
+/*Highlight current selected word*/
+.highlight-yellow{
+  background-color: #FFFF00;
+  color: black;
+  border: 1px solid #1B4AEF;
+}
+
+mark{
+  background-color: #FF9632;
+}
+
 /*  */
 .section-1{
     padding: 10px;
