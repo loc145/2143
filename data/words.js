@@ -1,160 +1,160 @@
 const words = {
 /* 1 */
 'encompass (verb)':
-``
+``,
 /* 2 */
 'reform (verb)':
-``
+``,
 /* 3 */
 'loom (verb)':
-``
+``,
 /* 4 */
 'cemetery (noun)':
-``
+``,
 /* 5 */
 'intriguing (adjective)':
-``
+``,
 /* 6 */
 'circulation (noun)':
-``
+``,
 /* 7 */
 'trademark (noun)':
-``
+``,
 /* 8 */
 'patrol (verb)':
-``
+``,
 /* 9 */
 'mechanical (adjective)':
-``
+``,
 /* 10 */
 'tempt (verb)':
-``
+``,
 /* 11 */
 'boost (noun)':
-``
+``,
 /* 12 */
 'pond (noun)':
-``
+``,
 /* 13 */
 'stumble (verb)':
-``
+``,
 /* 14 */
 'civilian (noun)':
-``
+``,
 /* 15 */
 'sacred (adjective)':
-``
+``,
 /* 16 */
 'extremist (noun)':
-``
+``,
 /* 17 */
 'analogy (noun)':
-``
+``,
 /* 18 */
 'rebel (noun)':
-``
+``,
 /* 19 */
 'abolish (verb)':
-``
+``,
 /* 20 */
 'predator (noun)':
-``
+``,
 /* 21 */
 'fool (noun)':
-``
+``,
 /* 22 */
 'cognitive (adjective)':
-``
+``,
 /* 23 */
 'amid (preposition)':
-``
+``,
 /* 24 */
 'enquire (verb)':
-``
+``,
 /* 25 */
 'conquer (verb)':
-``
+``,
 /* 26 */
 'layout (noun)':
-``
+``,
 /* 27 */
 'fixture (noun)':
-``
+``,
 /* 28 */
 'constitution (noun)':
-``
+``,
 /* 29 */
 'diagnose (verb)':
-``
+``,
 /* 30 */
 'compromise (noun)':
-``
+``,
 /* 31 */
 'abuse (verb)':
-``
+``,
 /* 32 */
 'likelihood (noun)':
-``
+``,
 /* 33 */
 'fragment (noun)':
-``
+``,
 /* 34 */
 'coastal (adjective)':
-`Coastal is an adjective that describes something related to the coast, which is the land along the edge of the sea or ocean. For example, coastal towns are often popular tourist destinations because they offer beautiful views and fresh seafood. However, coastal towns also have some disadvantages, such as being vulnerable to storms, floods and pirates. Coastal people are usually friendly and relaxed, but they can also be very territorial and competitive when it comes to surfing or fishing. Coastal life is not for everyone, but it can be very enjoyable if you like sand in your shoes and salt in your hair.`
+`Coastal is an adjective that describes something related to the coast, which is the land along the edge of the sea or ocean. For example, coastal towns are often popular tourist destinations because they offer beautiful views and fresh seafood. However, coastal towns also have some disadvantages, such as being vulnerable to storms, floods and pirates. Coastal people are usually friendly and relaxed, but they can also be very territorial and competitive when it comes to surfing or fishing. Coastal life is not for everyone, but it can be very enjoyable if you like sand in your shoes and salt in your hair.`,
 /* 35 */
 'hydrogen (noun)':
-``
+``,
 /* 36 */
 'supposedly (adverb)':
-``
+``,
 /* 37 */
 'storage (noun)':
-``
+``,
 /* 38 */
 'insert (verb)':
-``
+``,
 /* 39 */
 'medieval (adjective)':
-``
+``,
 /* 40 */
 'domain (noun)':
-``
+``,
 /* 41 */
 'infant (noun)':
-``
+``,
 /* 42 */
 'punk (noun)':
-``
+``,
 /* 43 */
 'provoke (verb)':
-``
+``,
 /* 44 */
 'inflict (verb)':
-``
+``,
 /* 45 */
 'shortage (noun)':
-``
+``,
 /* 46 */
 'fairness (noun)':
-``
+``,
 /* 47 */
 'inhabitant (noun)':
-``
+``,
 /* 48 */
 'clarify (verb)':
-``
+``,
 /* 49 */
 'stake (noun)':
-``
+``,
 /* 50 */
 'columnist (noun)':
-``
+``,
 /* 51 */
 'mere (adjective)':
-``
+``,
 /* 52 */
 'disappointment (noun)':
-``
+``,
 /* 53 */
 'outlook (noun)':
 `Outlook is a noun that can mean either a person's attitude towards life or a software program that helps you manage your emails and calendars. The two meanings are often confused, especially when someone says they have a positive outlook. Do they mean they are optimistic and cheerful, or do they mean they like using Microsoft Outlook? Sometimes it's hard to tell, especially if they are smiling while checking their inbox. Maybe they are just happy to receive spam messages from Nigerian princes and online pharmacies.`,
@@ -163,142 +163,142 @@ const words = {
 `Surplus is a word that means having more than you need or want. It sounds like a good thing, right? Who wouldn't want to have a surplus of money, food, or friends? Well, sometimes having a surplus can be a problem. For example, if you have a surplus of cheese in your fridge, it might go bad and smell awful. Or if you have a surplus of cats in your house, they might scratch your furniture and shed everywhere. Or if you have a surplus of jokes in your head, you might annoy everyone with your constant puns and sarcasm. So be careful what you wish for when it comes to surplus. Sometimes less is more.`,
 /* 55 */
 'whereby (adverb)':
-``
+``,
 /* 56 */
 'enrich (verb)':
-``
+``,
 /* 57 */
 'swing (verb)':
-``
+``,
 /* 58 */
 'ambulance (noun)':
-``
+``,
 /* 59 */
 'primarily (adverb)':
-``
+``,
 /* 60 */
 'altogether (adverb)':
-``
+``,
 /* 61 */
 'idiot (noun)':
-``
+``,
 /* 62 */
 'seldom (adverb)':
-``
+``,
 /* 63 */
 'convincing (adjective)':
-``
+``,
 /* 64 */
 'solo (noun)':
-``
+``,
 /* 65 */
 'deficiency (noun)':
-``
+``,
 /* 66 */
 'corridor (noun)':
-``
+``,
 /* 67 */
 'occupy (verb)':
-``
+``,
 /* 68 */
 'halfway (adverb)':
 `Halfway is a word that means not quite there yet, but also not too far away. It's like being stuck in the middle of something, but not knowing which way to go. For example, halfway through the movie, I realized I had forgotten my popcorn in the car. But I didn't want to miss any of the action, so I stayed in my seat and hoped for the best. Halfway through the popcorn, I realized it was stale and salty. But I didn't want to waste it, so I kept munching and regretting my decision. Halfway through this paragraph, I realized it was boring and pointless. But I didn't want to disappoint you, so I finished it with a lame joke. What do you call a fish that is halfway between a shark and a dolphin? A sharphin!`,
 /* 69 */
 'spotlight (noun)':
-``
+``,
 /* 70 */
 'bold (adjective)':
-``
+``,
 /* 71 */
 'drown (verb)':
-``
+``,
 /* 72 */
 'fulfil (verb)':
-``
+``,
 /* 73 */
 'notably (adverb)':
-``
+``,
 /* 74 */
 'identical (adjective)':
-``
+``,
 /* 75 */
 'constitutional (adjective)':
-``
+``,
 /* 76 */
 'concrete (adjective)':
-``
+``,
 /* 77 */
 'stab (verb)':
-``
+``,
 /* 78 */
 'snap (verb)':
-``
+``,
 /* 79 */
 'scratch (noun)':
-``
+``,
 /* 80 */
 'historian (noun)':
-``
+``,
 /* 81 */
 'originate (verb)':
-``
+``,
 /* 82 */
 'socialist (adjective)':
-``
+``,
 /* 83 */
 'mentor (noun)':
-``
+``,
 /* 84 */
 'extract (verb)':
-``
+``,
 /* 85 */
 'exaggerate (verb)':
-``
+``,
 /* 86 */
 'gross (adjective)':
-``
+``,
 /* 87 */
 'myth (noun)':
-``
+``,
 /* 88 */
 'intervention (noun)':
-``
+``,
 /* 89 */
 'incidence (noun)':
-``
+``,
 /* 90 */
 'raid (verb)':
-``
+``,
 /* 91 */
 'ruin (verb)':
-``
+``,
 /* 92 */
 'dive (noun)':
-``
+``,
 /* 93 */
 'so-called (adjective)':
-``
+`Have you ever met someone who claims to be an expert on something but actually knows nothing about it? They are what we call so-called (adjective) people. For example, a so-called (adjective) chef who can't even boil an egg, or a so-called (adjective) singer who sounds like a dying cat. These people are usually very confident and arrogant, but they have no clue how ridiculous they look. They should really stop pretending and learn some humility.`,
 /* 94 */
 'premier (adjective)':
-``
+``,
 /* 95 */
 'effectiveness (noun)':
-``
+``,
 /* 96 */
 'beneath (preposition)':
-``
+``,
 /* 97 */
 'worthwhile (adjective)':
-``
+``,
 /* 98 */
 'intake (noun)':
-``
+``,
 /* 99 */
 'conscience (noun)':
-``
+``,
 /* 100 */
 'reproduction (noun)':
-``
+``,
 /* 101 */
 'charm (noun)':
 ``,

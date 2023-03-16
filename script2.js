@@ -39,30 +39,30 @@ function selected(button){
   const CurrentText = currentText.charAt(0).toUpperCase() + currentText.slice(1);
 
   const regex = new RegExp(`${currentText}`, 'g');
-  const Regex = new RegExp(`${CurrentText}`, 'g');
+  const Regex = new RegExp(`^${CurrentText}`, '');
 
   const text = words[button.innerHTML]
-                .replace(/\n/g, '<br>')
+                // .replace(/\n/g, '<br>')
                 .replace(regex, `<mark>${currentText}</mark>`)
-                .replace(Regex, `<mark>${CurrentText}</mark>`)
+                .replace(Regex, `<mark>${CurrentText}</mark>`);
   //Uppercase first character of each paragraphs
 
-  const paragraphs = text.split("<br><br><mark>");
+  // const paragraphs = text.split("<br><br><mark>");
 
-  for (let i in paragraphs) {
-    paragraphs[i] = paragraphs[i].charAt(0).toUpperCase() + paragraphs[i].slice(1);
-  }
+  // for (let i in paragraphs) {
+  //   paragraphs[i] = paragraphs[i].charAt(0).toUpperCase() + paragraphs[i].slice(1);
+  // }
 
-  const newText = paragraphs.join("<br><br><mark>");
+  // const newText = paragraphs.join("<br><br><mark>");
 
-  document.querySelector('p').innerHTML = newText;
+  document.querySelector('p').innerHTML = text;
 }
 
 
 /**/
 function copy(){
   const c = document.querySelector('p').innerHTML
-                .replace(/<br>/g, '\n')
+                // .replace(/<br>/g, '\n')
                 .replace(/<\/?mark>/g, '');
 
   navigator.clipboard.writeText(c);
@@ -91,7 +91,7 @@ function backHome(){
 function onlineTranslate(name){
   
     const text = document.querySelector('p').innerHTML
-                      .replace(/<br>/g, '%0A')
+                      // .replace(/<br>/g, '%0A')
                       .replace(/<\/?mark>/g, '');
 
     if(text == ''){
