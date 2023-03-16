@@ -62,7 +62,8 @@ function selected(button){
 /**/
 function copy(){
   const c = document.querySelector('p').innerHTML
-                .replace(/<br>/g, '\n');
+                .replace(/<br>/g, '\n')
+                .replace(/<\/?mark>/g, '');
 
   navigator.clipboard.writeText(c);
 
