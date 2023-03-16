@@ -39,7 +39,7 @@ function selected(button){
   const CurrentText = currentText.charAt(0).toUpperCase() + currentText.slice(1);
 
   const regex = new RegExp(`${currentText}`, 'g');
-  const Regex = new RegExp(`^${CurrentText}`, '');
+  const Regex = new RegExp(`${CurrentText}`, 'g');
 
   const text = words[button.innerHTML]
                 // .replace(/\n/g, '<br>')
