@@ -58,58 +58,62 @@ function selected(button){
   document.querySelector('p').innerHTML = text;
 }
 
-
-/**/
-function copy(){
-  const c = document.querySelector('p').innerHTML
-                // .replace(/<br>/g, '\n')
-                .replace(/<\/?mark>/g, '');
-
-  navigator.clipboard.writeText(c);
-
-  const span = document.querySelector(".fade-copy");
-
-  span.classList.add("animate");
-  span.style.visibility = 'visible';
-  
-  
-  setTimeout(() => {
-    span.classList.remove("animate");
-    span.style.visibility = 'hidden';
-  }, 2000);
-
-}
-
 /**/
 function backHome(){
     window.location.href = `index.html`;
+}
+
+/**/
+function checkNullForSection2(){
+  let c = document.querySelector('p').innerHTML
+                // .replace(/<br>/g, '\n')
+                .replace(/<\/?mark>/g, '');
+  if(c == ''){
+    alert('Please choose a word first.');
+    return false;
+  }
+    
+  return c;
+}
+
+/**/
+function copy(){
+
+    const text = checkNullForSection2();
+    if(text!== false){
+        navigator.clipboard.writeText(text);
+
+        const span = document.querySelector(".fade-copy");
+
+        span.classList.add("animate");
+        span.style.visibility = 'visible';
+        
+        
+        setTimeout(() => {
+          span.classList.remove("animate");
+          span.style.visibility = 'hidden';
+        }, 2000);
+      }
 }
 
 
 
 /**/
 function onlineTranslate(name){
-  
-    const text = document.querySelector('p').innerHTML
-                      // .replace(/<br>/g, '%0A')
-                      .replace(/<\/?mark>/g, '');
 
-    if(text == ''){
-          alert('Please choose a word first.')
-    }
-    else{
-          const width = 1000;
+    const text = checkNullForSection2();
+    if(text!== false){
+          const width = 850;
           const height = 500;
 
           const top = Math.floor(screen.height/2 - height/2) - 100;
           const left = Math.floor(screen.width/2 - width/2);
 
           let url;
-          if(name.classList[1] == 'half-circle-left'){
+          if(name.classList[1] == 'left'){
             url = `https://translate.google.com/?hl=vi&tab=TT&sl=en&tl=vi&text=${text}&op=translate`;
-          }
-          else if(name.classList[1] == 'half-circle-right'){
-            url = `https://translate.yandex.com/?source_lang=en&target_lang=vi&text=${text}`;
+          } else if(name.classList[1] == 'right'){
+            url = `https://www.bing.com/translator?from=en&to=vi&text=${text}`;
           }
 
           window.open(
