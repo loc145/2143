@@ -11,6 +11,7 @@ for (let i = (index-1)*100; i < index*100; i++) {
     const button = document.createElement("button");
     button.innerHTML = Object.keys(words)[i];
     button.setAttribute('onclick', 'selected(this)');
+    button.setAttribute('translate', 'no');
     document.querySelector('.section-1').appendChild(button);
   }
 }
