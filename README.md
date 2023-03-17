@@ -9,6 +9,6 @@ Tips:<br>
 Translated feature: English -> Vietnamese<br>
 
 If you use mobile browser, I have a recommendation:<br>
-+ Install [Google Translate](https://apps.apple.com/vn/app/google-translate/id414706506) & [Yandex Translate](https://apps.apple.com/vn/app/yandex-translate/id584291439) on your smartphone for better experience.<br>
++ Install [Google Translate](https://apps.apple.com/vn/app/google-translate/id414706506) & [Microsoft Translate](https://apps.apple.com/us/app/microsoft-translator/id1018949559) on your smartphone for better experience.<br>
 <br>
 Hope this helps!
