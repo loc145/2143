@@ -59,6 +59,7 @@ button:hover{
   background-color: #FFFF00;
   color: black;
   border: 1px solid #1B4AEF;
+  text-decoration: none;
 }
 
 mark{
