@@ -100,10 +100,14 @@ mark{
     height: auto;
     display: flex;
     justify-content: space-around;
-    border: 0;
     position: fixed;
     top: 0;
     z-index: 9998;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: black;
+
  }
  .top {
     width: 50px;
@@ -115,10 +119,14 @@ mark{
 
   .right{
     margin-left: 30px;
+    padding-left: 1px;
+    padding-right: 1px;
   }
 
   .mid{
-    background-color: rgba(248, 78, 15, 0.5);
+    background-image: url('./assets/top-mid-background.png');
+
+    background-size: contain;
     transform: rotate(180deg);
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
@@ -131,6 +139,7 @@ mark{
     height: 50px;
     /*opacity: 0.2;*/
     border-radius: 10px;
+
   }
 
   .half-circle-text {
@@ -139,7 +148,7 @@ mark{
     left: 50%;
     transform: translate(-50%, -50%) rotate(180deg);
     color: #fff;
-    font-size: 16px;
+    font-size: 20px;
   }
   
 
