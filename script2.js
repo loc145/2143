@@ -105,7 +105,8 @@ function pronounce(){
 function onlineTranslate(name){
 
     const text = checkNullForSection2();
-    if(text!== false){
+    const textTranslated = /<font style="vertical-align: inherit;">/.test(text);
+    if(text!== false && textTranslated == false){
           const width = 850;
           const height = 500;
 
@@ -124,6 +125,8 @@ function onlineTranslate(name){
           'popUpWindow',
           `width=${width}, height=${height}, top=${top}, left=${left},
           toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=yes, resizable=yes`); 
+    } else if(textTranslated == true){
+      alert("Please click 'Show original' button first.")
     }
 }
 
