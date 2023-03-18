@@ -29,136 +29,136 @@ const words = {
 `Patrol (verb): to walk or drive around an area in order to watch or guard it. For example: "The security guard patrolled the parking lot every night, looking for suspicious activity. He never found any, but he did find a lot of empty pizza boxes and soda cans. He wondered if the other guards were having a party without him."`,
 /* 9 */
 'mechanical (adjective)':
-``,
+`If you are mechanical, it means you have something to do with machines or machinery. For example, you might be a mechanical engineer who designs and builds machines, or a mechanical toy that moves by itself. Or you might be a mechanical failure who breaks down every time you try to do something. Being mechanical also means you are related to movement or mechanics, which is the study of how physical forces affect objects. For example, you might be interested in how mechanical forces make bones stronger or weaker. Or you might be bored by the mechanical process of copying down numbers from a book. Being mechanical can also mean you act like a machine, without thinking or feeling anything. For example, you might give a mechanical reply when someone asks you how you are doing, or perform a mechanical task without any enthusiasm. Being mechanical is not always bad, but sometimes it can make you seem cold, impersonal or lifeless.`,
 /* 10 */
 'tempt (verb)':
-``,
+`To tempt someone is to make them want to do something that they know they shouldn't do. For example, you might tempt your friend to skip class by offering them a free ticket to the movies. Or you might tempt your dog to jump on the couch by leaving a juicy steak on it. Or you might tempt yourself to eat the whole cake by telling yourself that you deserve it. Tempting someone is usually not very nice, unless they really enjoy being tempted.`,
 /* 11 */
 'boost (noun)':
-``,
+`A boost is something that gives you a lift, an advantage, or a push in the right direction. For example, a rocket needs a boost to launch into space, a student needs a boost to ace an exam, and a cat needs a boost to reach the tuna on the top shelf. Boosts can come in different forms, such as energy drinks, cheat sheets, or stools. But be careful not to overdo it with the boosts, or you might end up crashing down hard.`,
 /* 12 */
 'pond (noun)':
-``,
+`A pond is a small body of water that is usually shallow enough to see the bottom. Ponds are often home to fish, frogs, ducks and other aquatic creatures. Ponds are also great places to relax, swim or catch tadpoles. However, ponds can also be dangerous if you don't pay attention to the signs. For example, if you see a sign that says "Beware of the Crocodile", you should probably avoid that pond. Unless you want to become a crocodile snack, of course.`,
 /* 13 */
 'stumble (verb)':
-``,
+`Stumble is a verb that means to trip or lose your balance while walking or running. It can also mean to make a mistake or pause awkwardly while speaking or playing music. For example, you might stumble on a banana peel and fall on your face. Or you might stumble over your words when you try to tell a joke. Stumbling can be embarrassing, but it can also be funny - unless you're the one who's stumbling!`,
 /* 14 */
 'civilian (noun)':
-``,
+`A civilian is someone who is not part of the police or the military. Civilians are often confused with aliens, but they are actually very different. Aliens come from outer space and have weird powers, while civilians come from Earth and have no powers at all. Civilians like to do boring things like watch TV, go to work, and pay taxes. Sometimes civilians get caught up in wars or disasters that are caused by the police or the military, and then they get very angry or sad. Civilians also like to ride in space shuttles, but they rarely get a chance to do so.`,
 /* 15 */
 'sacred (adjective)':
-``,
+`Sacred is an adjective that means something is very special and important, usually because it has something to do with God or a god. For example, you might say that your grandmother's Bible is sacred to you, or that your cat's litter box is sacred to him. Sacred things are not to be messed with, unless you want to face some serious consequences. For example, if you touch my sacred chocolate stash, I will unleash my sacred wrath upon you. Sacred things can also be places, like temples or shrines, where people go to worship or pray. For example, you might say that Disneyland is a sacred place for Mickey Mouse fans, or that your bedroom is a sacred place for sleeping and binge-watching Netflix.`,
 /* 16 */
 'extremist (noun)':
-``,
+`An extremist is someone who has opinions that are so extreme that they make most people go "Whoa, calm down there buddy". Extremists may do things that are violent, illegal or just plain weird for what they believe. For example, some extremists may blow up buildings, rob banks or wear socks with sandals. Extremists can be left-wing, right-wing, political, religious or any other kind of -wing. They are usually not very fun to hang out with unless you share their extreme views. If you ever meet an extremist, you should probably run away or call the police.`,
 /* 17 */
 'analogy (noun)':
-``,
+`An analogy is a way of explaining something by comparing it to something else that is more familiar. For example, if you want to explain what a computer is to someone who has never seen one, you might say that it's like a typewriter with a TV screen. That's an analogy. Analogies are useful when you want to make complex ideas easier to understand, or when you want to make your writing more interesting and creative. But analogies can also be misleading or inaccurate if they are too vague or exaggerated. For example, saying that life is like a box of chocolates is an analogy, but it doesn't really tell you much about life, except that it's unpredictable and sweet sometimes. That's why you should always be careful when using analogies and make sure they are relevant and appropriate for your purpose.`,
 /* 18 */
 'rebel (noun)':
-``,
+`A rebel is someone who does not follow the rules or norms of society. They are often seen as cool, brave, or adventurous by some people, and as annoying, troublesome, or dangerous by others. Rebels may wear leather jackets, ride motorcycles, listen to loud music, or protest against authority. Some famous rebels in history include George Washington, Joan of Arc, and Bart Simpson.`,
 /* 19 */
 'abolish (verb)':
-``,
+`Abolish is a verb that means to get rid of something completely, like a law, a system or an institution. For example, you can abolish slavery, abolish rent control or abolish your annoying neighbor's loud music (just kidding). Abolish comes from Latin abolere, which means to destroy or efface. But don't confuse it with aboil, which means boiling or agitated. You can't abolish water by making it aboil. That would be absurd.`,
 /* 20 */
 'predator (noun)':
-``,
+`A predator is an animal that likes to eat other animals for breakfast, lunch and dinner. Sometimes, it also eats them for snacks. A predator is not very friendly or polite to its prey. It does not say "please" or "thank you" before it bites them. A predator is also not very picky about what it eats. It will eat anything that moves, and sometimes things that don't move. A predator is like a hungry teenager with sharp teeth and claws.`,
 /* 21 */
 'fool (noun)':
-``,
+`A fool is someone who does or says things that make them look stupid or unwise. For example, a fool might try to ride a motorcycle without a helmet, or ask a silly question like "What is the meaning of life?". A fool might also be tricked or deceived by others who want to make fun of them or take advantage of them. Sometimes, people call themselves fools when they regret something they did or didn't do. For example, "I was such a fool to let her go" or "I'm only a fool for you". Fools are often found in jokes, stories and songs, where they provide amusement or lessons for the audience. Some famous fools are Mr. Bean, Homer Simpson and Dory from Finding Nemo.`,
 /* 22 */
 'cognitive (adjective)':
-``,
+`Cognitive is an adjective that means related to thinking, reasoning, remembering, and other mental processes. It's a word that makes you sound smart and sophisticated, but also a word that can get you into trouble if you use it wrong. For example, don't say "I'm feeling very cognitive today" unless you want people to think you're a robot. And don't say "Your cognitive skills are impressive" to someone who just failed a test. And definitely don't say "You're not very cognitive, are you?" to anyone ever. Cognitive is a word that should be used with care and precision, or else you might end up looking less cognitive than you intended.`,
 /* 23 */
 'amid (preposition)':
-``,
+`Amid is a word that means 'in the middle of' or 'surrounded by'. It is often used in formal situations, such as news reports, speeches, or investigations. However, it can also be used in humorous ways to create contrast or irony. For example: He proposed to her amid a flock of angry geese; She found her true calling amid a pile of dirty laundry. [in this context, a human might say this is funny because it implies that doing laundry inspired her to pursue a different career]; He lost his wallet amid the chaos of Black Friday. [some people may think this is funny because it shows how shopping can be dangerous and stressful]`,
 /* 24 */
 'enquire (verb)':
-``,
+`Enquire is a verb that means to ask for information from someone. It's also a less common variant of inquire, which means the same thing. Some people think that enquire is more British and inquire is more American, but that's not really true. They're both used in both places, just not as much as each other. Enquire can also be spelled with an 'i', but don't confuse it with enquiry, which is a noun that means a question or an investigation. Enquiry can also be spelled with an 'i', but don't confuse it with inquiry, which is another noun that means the same thing. Confused yet? Don't worry, just remember this rhyme:  When you want to know more, you can enquire or inquire. But when you have a question, you need an enquiry or inquiry.`,
 /* 25 */
 'conquer (verb)':
-``,
+`Conquer is a verb that means to win something by force, like land, people, or hearts. It sounds like "conker", which is a game where you hit nuts with sticks. But don't confuse them, because if you try to conquer someone's heart by hitting it with a stick, you might end up in jail. Or worse, you might lose their love forever. So remember: conker good, conquer bad. Unless you're a king or a general or something. Then conquer good, conker bad. Got it?`,
 /* 26 */
 'layout (noun)':
-``,
+`A layout is a noun that means the way something is arranged or organized. For example, the layout of your bedroom might include a bed, a desk, a closet and a pile of dirty laundry. The layout of your essay might include an introduction, a thesis statement, three body paragraphs and a conclusion. The layout of your sandwich might include bread, cheese, ham and mustard. A good layout can make things easier to find, read or enjoy. A bad layout can make things confusing, boring or messy. So choose your layouts wisely and don't forget to clean up after yourself!`,
 /* 27 */
 'fixture (noun)':
-``,
+`A fixture is something that is fixed in place and cannot be easily moved. For example, a lamp that is attached to the ceiling is a fixture, but a lamp that you can plug in and out is not. A fixture can also be a person or thing that is always present in a certain situation or place. For example, your grandma who always sits on the same spot on the couch is a fixture, but your cousin who only visits once a year is not. A fixture can also be an event that happens regularly or predictably. For example, the Super Bowl is a fixture of American culture, but the World Cup is not.`,
 /* 28 */
 'constitution (noun)':
-``,
+`A constitution is a set of rules that tells you how to run a country, a state, or an organization. It's like a recipe for making a cake, except instead of flour and eggs, you have laws and rights. And instead of baking it in an oven, you have to get people to agree on it. And instead of eating it, you have to follow it. And if you don't like it, you can try to change it, but that's really hard. So maybe it's not like a cake at all. Maybe it's more like a puzzle that never gets solved.`,
 /* 29 */
 'diagnose (verb)':
-``,
+`To diagnose is to identify the nature or cause of something by examining its symptoms. For example, if you have a fever, a cough and a sore throat, you might diagnose yourself with a cold. Or if your car makes a strange noise when you start it, you might diagnose it with a faulty engine. However, diagnosing is not always easy or accurate. Sometimes you might need to consult an expert, such as a doctor or a mechanic, to get a proper diagnosis. And sometimes you might get a wrong diagnosis, such as when you think you have food poisoning but it turns out you are pregnant. That's why it's important to always double-check your diagnosis before taking any action.`,
 /* 30 */
 'compromise (noun)':
-``,
+`Compromise is a word that sounds like a promise, but it's actually a way of breaking promises. It's when two people or groups want different things, and they decide to give up some of those things so they can stop arguing. For example, if you want pizza for dinner and your friend wants sushi, you might compromise and get Chinese food instead. Or if you want to watch a horror movie and your friend wants to watch a comedy, you might compromise and watch a romantic comedy that makes you both cringe. Compromise is supposed to make everyone happy, but sometimes it just makes everyone unhappy.`,
 /* 31 */
 'abuse (verb)':
-``,
+`Abuse is a verb that means to use something or someone in a wrong or harmful way. For example, you can abuse your authority by making your employees do your laundry, or you can abuse your eyesight by staring at the sun for too long. Abuse is not a nice thing to do, and it can have serious consequences. For example, if you abuse alcohol, you might end up with liver problems, or if you abuse your spouse, you might end up with divorce papers. So please don't abuse anything or anyone, unless it's yourself. Then you can abuse yourself as much as you want. Just kidding! Don't do that either. That's called self-abuse, and it's not healthy or funny.`,
 /* 32 */
 'likelihood (noun)':
-``,
+`Likelihood is a noun that means the probability or chance of something happening. For example, the likelihood of winning the lottery is very low, unless you buy a lot of tickets. The likelihood of getting struck by lightning is also very low, unless you stand outside in a storm holding a metal rod. The likelihood of me making you laugh with this paragraph is unknown, unless you tell me how funny I am.😁`,
 /* 33 */
 'fragment (noun)':
-``,
+`A fragment is a piece of something that has broken off or been separated from the whole. For example, when you drop a glass on the floor, it shatters into fragments. Or when you eat a cookie, you might leave some crumbs or fragments behind. Fragments can also be used to describe incomplete sentences that lack a subject or a verb. For example, this is a fragment: "Because I was hungry." It doesn't make sense by itself and needs more information to be complete. Fragments are bad for writing but good for comedy. Like this joke: "What do you call a fish with no eyes?" "Fsh." That's a fragment and it's funny. Ha ha ha.`,
 /* 34 */
 'coastal (adjective)':
 `Coastal is an adjective that describes something related to the coast, which is the land along the edge of the sea or ocean. For example, coastal towns are often popular tourist destinations because they offer beautiful views and fresh seafood. However, coastal towns also have some disadvantages, such as being vulnerable to storms, floods and pirates. Coastal people are usually friendly and relaxed, but they can also be very territorial and competitive when it comes to surfing or fishing. Coastal life is not for everyone, but it can be very enjoyable if you like sand in your shoes and salt in your hair.`,
 /* 35 */
 'hydrogen (noun)':
-``,
+`Hydrogen is a gas that likes to party. It's always looking for other elements to bond with, especially oxygen. When hydrogen and oxygen get together, they make water, which is essential for life on Earth. But sometimes hydrogen gets too excited and explodes, like in a hydrogen bomb or the Hindenburg disaster. That's why you should never invite too much hydrogen to your birthday bash. Hydrogen is also the lightest element in the universe, which means it can float away easily. That's why it's not very common in our atmosphere, but it's very abundant in outer space. Hydrogen is also very simple, having only one proton and one electron per atom  . It doesn't need any fancy accessories like neutrons or isotopes. Hydrogen is happy with what it has, and that's what makes it so fun.`,
 /* 36 */
 'supposedly (adverb)':
-``,
+`Supposedly (adverb) is a word that you use when you want to express doubt or disbelief about something. For example, you might say "He is supposedly a genius, but he can't even tie his own shoelaces." Or "She is supposedly on a diet, but she just ate a whole cake." Supposedly is also a word that you use when you want to make an excuse or avoid responsibility for something. For example, you might say "I was supposedly working on my assignment, but I got distracted by Netflix." Or "She was supposedly sick, but she went to the party anyway."`,
 /* 37 */
 'storage (noun)':
-``,
+`Storage (noun): A place where you keep all the things you don't need but can't bear to throw away. Examples of storage include closets, basements, attics, garages, and your ex's apartment. Storage can also refer to the amount of space available on your computer or phone for saving files, photos, videos, and memes. The more storage you have, the more clutter you can accumulate digitally. Storage is often measured in bytes, which are tiny units of information that nobody really understands.`,
 /* 38 */
 'insert (verb)':
-``,
+`Insert is a verb that means to put something inside something else, like a key in a lock or a flyer in a magazine. It can also mean to introduce something into a text, like a comma between two words or a joke between two sentences. Sometimes, insert can mean to place something into an orbit or a chromosome, but that's usually done by scientists and not by ordinary people. Insert can also mean to join a conversation uninvited, like when you insert your opinion into an argument that has nothing to do with you. In that case, you might want to insert yourself out of there before someone gets angry.`,
 /* 39 */
 'medieval (adjective)':
-``,
+`If you think your computer system is old-fashioned, you should see what they used in the medieval times. They didn't have laptops or smartphones, they had scrolls and quills. They didn't have Google or Wikipedia, they had monks and libraries. They didn't have emojis or memes, they had heraldry and gargoyles. Medieval means of, relating to, or characteristic of the Middle Ages, which was a period of history between the fall of the Roman Empire and the Renaissance. It was also a time of plagues, wars, crusades, and feudalism. So next time you complain about your slow internet connection or your outdated software, remember that things could be worse. You could be living in the medieval era!`,
 /* 40 */
 'domain (noun)':
-``,
+`A domain is a word that can mean different things depending on who you ask. For example, if you ask a mathematician, they might say that a domain is the set of possible values for an independent variable in a function. If you ask a biologist, they might say that a domain is the highest level of classification for living organisms. If you ask a web developer, they might say that a domain is the part of a website address that identifies the owner or purpose of the site. And if you ask a medieval historian, they might say that a domain is the land or territory ruled by a lord or king. As you can see, domains are very diverse and confusing concepts. Maybe we should just stick to simpler words like pizza or cat.`,
 /* 41 */
 'infant (noun)':
-``,
+`An infant is a tiny human who can't talk yet, but can make a lot of noise. Infants are also known as babies, but don't call them that if you want to sound smart. Infants like to eat, sleep, poop, and play with anything they can get their hands on. They also like to smile, cry, and drool a lot. Infants are very cute, but also very messy. If you ever meet an infant, be nice to them, because they might grow up to be your boss someday.`,
 /* 42 */
 'punk (noun)':
-``,
+`Punk is a noun that can mean many things, depending on who you ask. To some, punk is a type of loud and aggressive rock music that emerged in the late 1970s and early 1980s . To others, punk is a person who likes this music and dresses like a rebel, with metal chains, leather clothes and brightly colored hair . And to others still, punk is a rude or violent young man or boy who deserves a good spanking. Punk can also be an adjective that describes something very poor or inferior, or a state of being unwell. Punk can also be tinder made from decayed wood, but that's not very funny.`,
 /* 43 */
 'provoke (verb)':
-``,
+`To provoke someone is to make them angry or annoyed on purpose, usually for your own amusement or satisfaction. For example, you might provoke your sister by hiding her favorite toy or calling her silly names. Or you might provoke your teacher by asking irrelevant questions or making funny noises. Or you might provoke your dog by pretending to throw a ball but keeping it in your hand. But be careful, because provoking someone can also cause a reaction that you might not like, such as getting yelled at, slapped, bitten, or worse. So don't say I didn't warn you!`,
 /* 44 */
 'inflict (verb)':
-``,
+`Inflict is a verb that means to make someone or something suffer something unpleasant, like pain, punishment, or taxes. It comes from Latin words that mean "to strike against", which sounds like a good way to inflict some damage. Some examples of inflict are: The teacher inflicted a pop quiz on the unsuspecting students; The mosquito inflicted a painful sting on my arm; The comedian inflicted his terrible jokes on the audience. Inflict is not to be confused with afflict, which means to affect someone or something badly. Afflict comes from Latin words that mean "to dash down", which sounds like a bad way to end up. Some examples of afflict are: The disease afflicted millions of people around the world; The storm afflicted the town with floods and power outages; The critics afflicted his ego with harsh reviews. I hope this paragraph helps you understand the meaning and usage of inflict. If not, you can always inflict more questions on me.😉`,
 /* 45 */
 'shortage (noun)':
-``,
+`Shortage (noun): A situation where something is not enough to meet the demand or need. For example, there is a shortage of toilet paper in the supermarket because everyone panicked and bought more than they needed. Now, people have to use other alternatives like newspapers, magazines or leaves. This can cause problems such as paper cuts, ink stains or rashes. A shortage can also affect other things like food, water or electricity. Sometimes, a shortage can be solved by producing more of the thing that is lacking or by reducing the consumption of it. Other times, a shortage can lead to conflicts, riots or wars. A shortage is not a good thing to have unless you are trying to lose weight or save money.`,
 /* 46 */
 'fairness (noun)':
-``,
+`Fairness is a noun that means treating people equally or reasonably, like giving everyone a slice of cake that is roughly the same size. It also means being light of hair or complexion, like having blond hair or pale skin. Sometimes these two meanings can get confused, like when someone says "She's so fair" and you don't know if they mean she's nice or she's blonde. Fairness can also be hard to achieve, like when you have to share your toys with your siblings or when you have to pay taxes. Fairness is often a matter of perspective, like when you think it's fair that you get to watch your favorite show but your roommate thinks it's fair that they get to choose. Fairness is something we all want but don't always get, like chocolate or sleep.`,
 /* 47 */
 'inhabitant (noun)':
-``,
+`An inhabitant is someone or something that lives somewhere, like a city, a cave, or a birdbox. For example, you are an inhabitant of Earth, unless you are an alien 👽. Some inhabitants are more welcome than others. For instance, most people would rather have birds than rats as inhabitants of their birdboxes. Inhabitants can also change over time. Maybe one day, humans will become inhabitants of Mars 🚀. But for now, we have to share this planet with all the other inhabitants, even the annoying ones 😒.`,
 /* 48 */
 'clarify (verb)':
-``,
+`If you ever find yourself confused by something someone said or wrote, you might want to ask them to clarify it for you. Clarify means make less confused and more clearly comprehensible. For example, if your friend tells you that they like your new haircut, but they say it with a weird tone of voice, you might wonder if they are being sarcastic or sincere. You could ask them to clarify what they mean by saying something like "Do you really like it or are you just being polite?" Clarify can also mean to make a liquid clear or pure by removing solid matter from it. For example, if you want to make some butter for your toast, but the butter is cloudy and has bits of milk solids in it, you could clarify it by heating it up and skimming off the foam. This will make the butter clear and smooth. But be careful not to confuse clarify with liquefy. Liquefy means to make something solid into a liquid by melting it. For example, if you want to make some chocolate sauce for your ice cream, but the chocolate is hard and brittle, you could liquefy it by putting it in a microwave and heating it up until it melts. This will make the chocolate liquid and gooey. But don't try to clarify chocolate - that would be a waste of good chocolate!`,
 /* 49 */
 'stake (noun)':
-``,
+`A stake is not just a juicy piece of meat that you can grill and enjoy with some fries. It can also mean a pointy stick that you can use to support a plant, scare away a vampire, or burn a witch. Or it can mean a share in a business that you can make money from, lose money on, or fight over with other shareholders. Or it can mean the amount of money that you risk on a game or a bet, hoping to win big or go home broke. As you can see, stakes are very versatile and come in different shapes and sizes. Just don't confuse them with steaks, because that would be a costly mistake.`,
 /* 50 */
 'columnist (noun)':
-``,
+`A columnist is someone who writes articles for a newspaper or a magazine on a regular basis. They usually have a specific topic or theme that they cover, such as politics, sports, fashion, or gardening. A columnist is different from a reporter, who just reports facts and events. A columnist also gives their opinions and insights on the issues they write about. Sometimes they are witty and humorous, sometimes they are serious and provocative. Sometimes they are loved and admired by their readers, sometimes they are hated and criticized. But no matter what, they always have something to say.`,
 /* 51 */
 'mere (adjective)':
-``,
+`Mere is an adjective that you use when you want to make something sound less impressive or important than it really is. For example, you can say "I finished this crossword puzzle in a mere 10 minutes" when it actually took you an hour. Or you can say "She's a mere child" when she's actually 25 years old and has a PhD. Mere is also a superlative form that means "the smallest or least possible". For example, you can say "The merest whisper could wake him up" when he's actually snoring like a chainsaw. Or you can say "He gave me the merest glance" when he actually stared at me for 5 minutes straight. Mere is a word that can make anything seem insignificant or trivial, even if it's not. It's a word that can make you feel humble or sarcastic, depending on how you use it.`,
 /* 52 */
 'disappointment (noun)':
-``,
+`Disappointment (noun): The feeling of sadness or displeasure caused by the nonfulfillment of one's hopes or expectations. For example, you might feel disappointment when you order a pizza and it arrives cold and soggy. Or when you buy a lottery ticket and it turns out to be a loser. Or when you ask Bing to write a funny paragraph and it gives you this lame definition instead.`,
 /* 53 */
 'outlook (noun)':
 `Outlook is a noun that can mean either a person's attitude towards life or a software program that helps you manage your emails and calendars. The two meanings are often confused, especially when someone says they have a positive outlook. Do they mean they are optimistic and cheerful, or do they mean they like using Microsoft Outlook? Sometimes it's hard to tell, especially if they are smiling while checking their inbox. Maybe they are just happy to receive spam messages from Nigerian princes and online pharmacies.`,
@@ -167,142 +167,142 @@ const words = {
 `Surplus is a word that means having more than you need or want. It sounds like a good thing, right? Who wouldn't want to have a surplus of money, food, or friends? Well, sometimes having a surplus can be a problem. For example, if you have a surplus of cheese in your fridge, it might go bad and smell awful. Or if you have a surplus of cats in your house, they might scratch your furniture and shed everywhere. Or if you have a surplus of jokes in your head, you might annoy everyone with your constant puns and sarcasm. So be careful what you wish for when it comes to surplus. Sometimes less is more.`,
 /* 55 */
 'whereby (adverb)':
-``,
+`Whereby is an adverb that means "by which way or method" or "because of which". It is often used in formal contexts, such as legal documents or academic papers. However, some people may use it in casual conversations to sound smart or fancy. For example: They have introduced a new system whereby all employees must undergo regular training; I have devised a cunning plan whereby we can sneak into the party without being noticed; She gave me a look whereby I knew I was in trouble. Whereby can also be used as a conjunction, meaning "in which" or "with which". This usage is not standard and may be considered incorrect by some grammarians. For example: It's put me in a position whereby I can't afford to take a job; He showed me his secret garden whereby he grows all kinds of exotic plants; This is the book whereby I learned how to speak French. Whereby is derived from Middle English wherby, which was formed by combining where and by. It first appeared in the 13th century as a conjunction and in the 14th century as an adverb.  Some synonyms for whereby are: by means of which, through which, by virtue of which, on account of which, etc.`,
 /* 56 */
 'enrich (verb)':
-``,
+`To enrich something means to make it better by adding something else to it. For example, you can enrich your soil by adding fertilizer, or you can enrich your vocabulary by reading books. But be careful not to confuse enrich with enrage, which means to make someone very angry. For example, you might enrage your teacher by saying that her class is boring and useless. That would not enrich your relationship with her at all!`,
 /* 57 */
 'swing (verb)':
-``,
+`Swing (verb): To move back and forth or side to side in a rhythmic motion. For example, you can swing on a playground swing, swing your arms when you walk, or swing your hips when you dance. You can also swing a baseball bat, a golf club, or a hammer. But be careful not to swing them at people or things that might break. Unless you want to cause some trouble. Then go ahead and swing away. Just don't blame me if you get caught.`,
 /* 58 */
 'ambulance (noun)':
-``,
+`An ambulance is a vehicle that is equipped for transporting the injured or the sick . It usually has sirens and flashing lights to alert other drivers to get out of the way. Sometimes, it also has a driver who likes to honk at everyone and pretend he's in a car chase. An ambulance can be very helpful if you need urgent medical care, but it can also be very expensive if you don't have insurance. So, unless you're really hurt or sick, you might want to consider other options like taking a taxi, calling a friend, or walking it off.`,
 /* 59 */
 'primarily (adverb)':
-``,
+`Primarily (adverb): for the most part; mainly. For example, "I primarily use Bing to search for funny memes and cat videos." This sentence implies that the speaker uses Bing for other purposes as well, but those are less important or frequent than looking for humorous content and cute animals. Alternatively, it could also imply that the speaker is lying and actually uses another search engine for everything else, but wants to make Bing feel good. Either way, it's a hilarious example of how to use primarily (adverb) in a sentence.`,
 /* 60 */
 'altogether (adverb)':
-``,
+`Altogether is an adverb that means completely, totally, or utterly. It can also mean with everything included or considered. For example, you might say "I'm altogether fed up with your nonsense" or "The bill came to $50 altogether". But be careful not to confuse it with the phrase all together, which means in a group. For example, you might say "We sang Happy Birthday all together" or "The kids were all together in the kitchen". Unless you mean that they were nude, in which case you should say "The kids were in the altogether in the kitchen". That's another informal way of using altogether, but it's not very common and probably not appropriate for most situations.`,
 /* 61 */
 'idiot (noun)':
-``,
+`An idiot is someone who does something so stupid that it makes you wonder how they survived this long. For example, an idiot might leave the tap running in the bathroom and flood the whole house, or lose their passport on a trip abroad, or invest in a company just because a stranger recommended it. An idiot is not just ignorant or uneducated; an idiot is someone who lacks common sense and basic intelligence. An idiot is also a rude way to refer to someone you don't like or respect. You might call someone an idiot if they cut you off in traffic, or if they disagree with your opinion, or if they are your boss. But be careful: calling someone an idiot might make you look like one too!`,
 /* 62 */
 'seldom (adverb)':
-``,
+`Seldom is an adverb that means "not often" or "rarely". For example, you might say "I seldom eat broccoli" if you don't like broccoli very much. Or you might say "I seldom see a unicorn" if you live in a place where unicorns are scarce. Seldom is also a word that is seldom used in modern English, because people prefer to use words like "hardly ever" or "almost never" instead. Seldom is a word that needs more love and attention, so please use it more often in your sentences. Just not too often, because then it would lose its meaning.`,
 /* 63 */
 'convincing (adjective)':
-``,
+`Convincing (adjective): Having the power to make someone believe something that may or may not be true. For example, a convincing liar can make you think that they are a unicorn from outer space. A convincing salesman can make you buy a car that has no wheels. A convincing politician can make you vote for them even if they have no clue what they are doing. Convincing people are very persuasive and sometimes very dangerous.`,
 /* 64 */
 'solo (noun)':
-``,
+`Solo (noun): A musical performance by one person who thinks they are better than everyone else. Also known as a show-off or a diva. Example: "She sang a solo in the choir concert and made everyone else look bad."`,
 /* 65 */
 'deficiency (noun)':
-``,
+`If you have a deficiency, it means you are lacking something that you need. For example, if you have a vitamin deficiency, it means you don't eat enough fruits and vegetables. Or if you have a deficiency of common sense, it means you do things that are stupid or dangerous. Sometimes, having a deficiency can cause problems or make things worse. For example, if you have a deficiency of money, it means you are broke and can't buy anything. Or if you have a deficiency of humor, it means you don't laugh at jokes like this one.`,
 /* 66 */
 'corridor (noun)':
-``,
+`A corridor is a long and narrow passage that connects different rooms or parts of a building. It is often used for walking, running, hiding, sneaking or spying. Corridors can also be decorated with paintings, plants, carpets or traps. Some corridors are so long that they seem to never end, while others are so short that they barely fit a person. Corridors are usually boring and dull, unless something exciting happens in them, like a chase scene, a prank or a kiss.`,
 /* 67 */
 'occupy (verb)':
-``,
+`Occupy is a verb that means to take up space, time, attention, or possession of something. For example, you can occupy a seat in a movie theater, occupy your mind with a crossword puzzle, occupy a country with your army, or occupy someone's heart with your charm. But be careful not to confuse occupy with octopi, which are eight-armed sea creatures that can also occupy many things at once. Unless you are an octopus lover, then you can occupy yourself with octopi all day long.`,
 /* 68 */
 'halfway (adverb)':
 `Halfway is a word that means not quite there yet, but also not too far away. It's like being stuck in the middle of something, but not knowing which way to go. For example, halfway through the movie, I realized I had forgotten my popcorn in the car. But I didn't want to miss any of the action, so I stayed in my seat and hoped for the best. Halfway through the popcorn, I realized it was stale and salty. But I didn't want to waste it, so I kept munching and regretting my decision. Halfway through this paragraph, I realized it was boring and pointless. But I didn't want to disappoint you, so I finished it with a lame joke. What do you call a fish that is halfway between a shark and a dolphin? A sharphin!`,
 /* 69 */
 'spotlight (noun)':
-``,
+`A spotlight is a device that produces a very bright beam of light that can be pointed at anything you want to see better or make more visible. For example, you can use a spotlight to find your lost keys in the dark, or to make your cat chase the light around the room, or to highlight your amazing dance moves on the stage. Spotlights are also great for attracting attention, whether you want it or not. If you are a performer, a spotlight can make you feel like a star. If you are a criminal, a spotlight can make you feel like running away. Either way, spotlights are hard to ignore.`,
 /* 70 */
 'bold (adjective)':
-``,
+`If you are bold, you are either very brave or very rude. Sometimes both. You might do things that other people are afraid to do, like skydiving or speaking to the emperor. Or you might do things that other people think are impolite, like staring at someone or lying brazenly. Being bold can also mean having a strong and vivid appearance, like wearing a dress with bold stripes or painting your kitchen in bold colours. But be careful not to be too bold, or you might end up with a bold promontory, which is a steep cliff that sticks out into the sea. That would be a bold move indeed.`,
 /* 71 */
 'drown (verb)':
-``,
+`Drown (verb): To submerge oneself or something else in water or another liquid for too long, resulting in death or damage. For example: "He drowned his sorrows in beer, but he forgot that beer can also drown him." Drowning is not a recommended activity for humans, animals, plants, electronics, or anything that requires oxygen or dryness to function. Drowning is also not a polite way to end a conversation with someone you don't like. If you are drowning or see someone drowning, please call for help immediately. Unless it's a fish. Fish can't drown. Unless it's in lava. Then it can.`,
 /* 72 */
 'fulfil (verb)':
-``,
+`Fulfil is a verb that means to do something that you said you would do, or that someone else wants you to do. It sounds like a nice word, but it can also be very stressful. For example, if you promise to fulfil your friend's wish of eating a whole cake by yourself, you might regret it later. Or if your boss expects you to fulfil your duties as a clown at a children's party, you might not enjoy it very much. Fulfil can also mean to make someone happy or satisfied, but that's not always easy either. For example, if your partner wants you to fulfil their fantasy of dressing up as a unicorn, you might feel silly and uncomfortable. Fulfil can also mean to achieve something that you have always wanted to do, but that's not always possible either. For example, if your dream is to fulfil your potential as a rock star, you might have to face some harsh realities along the way. So fulfil is a word that can make you feel good or bad depending on the situation. But don't worry too much about it - just try to fulfil your own expectations and be happy with yourself.`,
 /* 73 */
 'notably (adverb)':
-``,
+`Notably is an adverb that means "in a way that attracts or deserves attention; remarkably". For example, you can say "She sang notably well at the karaoke night", meaning she sang so well that everyone noticed and praised her. Or you can say "He was notably absent from the meeting", meaning he was so conspicuously missing that everyone wondered where he was. Notably can also be used to introduce an important point or example, as in "Notably, he did not apologize for his mistake", meaning it was significant that he did not say sorry. Notably is not to be confused with notablys, which are small sticky notes that you can use to write reminders or messages. For example, you can say "She left a notably on his desk saying 'I love you'", meaning she left a cute note for him to find. Or you can say "He threw away all the notablys on his fridge", meaning he got rid of all the clutter and junk mail.`,
 /* 74 */
 'identical (adjective)':
-``,
+`Identical means exactly the same in every way. For example, identical twins are two people who look so much alike that you can't tell them apart. They have the same face, the same hair, the same voice, and sometimes even the same clothes. But they are not completely identical. They have different personalities, different preferences, and different fingerprints. So if you ever need to find out which twin is which, just ask them to touch something and then check for their unique patterns. Or you can just call them by their names and see who responds.`,
 /* 75 */
 'constitutional (adjective)':
-``,
+`If you are feeling sick or tired, you might want to take a constitutional. No, I don't mean changing the laws of your country or reading a boring document. I mean going for a walk or doing some mild exercise that is good for your health. That's one meaning of constitutional as an adjective. Another meaning is related to the constitution of a state or organization . For example, you might wonder if banning pineapple on pizza is constitutional or not. That depends on whether your constitution allows such a delicious restriction or not. A third meaning of constitutional is something that is part of your nature or makeup. For example, you might have a constitutional weakness for sweets or a constitutional aversion to spiders. In any case, constitutional is an adjective that can describe many things, but it's not very funny by itself.`,
 /* 76 */
 'concrete (adjective)':
-``,
+`Concrete is an adjective that means something is solid, real and definite. For example, a concrete plan is a plan that you can actually follow and achieve. A concrete wall is a wall that you can touch and feel. A concrete joke is a joke that...well, I don't know what that means. Maybe it's a joke that makes you laugh so hard that you fall on the ground and hit your head on the concrete. Ouch!`,
 /* 77 */
 'stab (verb)':
-``,
+`Stab (verb): To poke someone or something with a sharp object, usually a knife. This is not a nice thing to do and can cause serious injury or death. Some possible reasons why someone might stab another person are: they are angry, they are crazy, they are hungry and want to eat them, or they are playing a game of Clue and got carried away. Some possible reasons why someone might stab an object are: they are bored, they are curious, they are testing their knife skills, or they are trying to make art. Stabbing is not recommended as a hobby or a career choice.`,
 /* 78 */
 'snap (verb)':
-``,
+`Snap is a verb that means to break something suddenly and sharply, or to make a sharp cracking sound. For example, you can snap a twig in half, or snap your fingers to get someone's attention. But be careful not to snap at people when you are angry, because they might snap back at you. And don't snap your gum too loudly, because it might annoy the people around you. Unless you want to annoy them, then go ahead and snap away. Just don't be surprised if they snap your gum out of your mouth.`,
 /* 79 */
 'scratch (noun)':
-``,
+`Scratch (noun): A mark or wound made by scraping or tearing something with a sharp object. Usually happens when you try to pet a cat that doesn't like you, or when you forget to trim your nails and itch yourself too hard. Also, the sound that DJs make when they move vinyl records back and forth on a turntable. Not to be confused with the programming language for kids that uses colorful blocks instead of code.`,
 /* 80 */
 'historian (noun)':
-``,
+`A historian is someone who studies the past and writes about it in books that nobody reads. Historians are often confused with hoarders, because they collect old documents, artifacts and trivia that have no practical use. Historians like to argue with each other about what really happened in history, but they never agree on anything. Historians are also very good at making up dates and names that are hard to remember and pronounce.`,
 /* 81 */
 'originate (verb)':
-``,
+`If you want to originate something, you have to be very creative and original. You can't just copy someone else's idea and call it your own. That's plagiarism, and it's not cool. Originate means to start or create something new, like a word, a song, or a board game . For example, you can originate a new word by combining two existing words, like 'hangry' (hungry + angry) or 'brunch' (breakfast + lunch). Or you can originate a new song by humming a catchy tune and adding some lyrics. Or you can originate a new board game by using dice, cards, and tokens to make up some rules. But don't try to originate something that already exists, like fire, gravity, or sliced bread. That's not originating, that's just being late to the party.`,
 /* 82 */
 'socialist (adjective)':
-``,
+`If you are a socialist, you might believe that everyone should share everything and that no one should own anything privately. You might also think that the government should control all the means of production and distribution of goods and services. You might also like to wear red hats and sing songs about workers' rights. But don't worry, you are not alone. There are many countries, economies, and programs that are socialist or involve socialism in some way . Just don't confuse socialism with communism, because they are not exactly the same thing. And don't call someone a socialist as an insult, because they might take it as a compliment.`,
 /* 83 */
 'mentor (noun)':
-``,
+`A mentor is someone who has more experience and wisdom than you and is willing to share it with you for free. A mentor can help you achieve your goals, avoid mistakes, and learn new skills. A mentor is not someone who tells you what to do, but rather someone who guides you to find your own answers. A mentor is also not someone who gives you money, does your homework, or fixes your problems. A mentor is a rare and valuable person who deserves your respect and gratitude. If you find a good mentor, don't let them go. Unless they are holding you hostage, then call the police.`,
 /* 84 */
 'extract (verb)':
-``,
+`Extract is a verb that means to pull something out of something else, usually with some effort or force. For example, you can extract a tooth from your mouth, but it might hurt a lot. You can also extract information from someone who doesn't want to tell you anything, but you might have to use some sneaky tricks or threats. Sometimes, you can extract something good from a bad situation, like finding a silver lining or learning a lesson. But other times, you just have to accept that there is nothing to extract and move on with your life. Extracting things can be hard work, but it can also be rewarding if you find what you are looking for.`,
 /* 85 */
 'exaggerate (verb)':
-``,
+`Exaggerate (verb): To make something seem bigger, better, worse, or more important than it really is. For example, when you say that you have a million things to do today, you are exaggerating. Unless you are a superhero or a multitasking mastermind, there is no way you can accomplish that many tasks in 24 hours. Exaggerating is often used to make a story more interesting or dramatic, but it can also backfire if people don't believe you or think you are lying. So be careful not to exaggerate too much, or you might end up like the boy who cried wolf.`,
 /* 86 */
 'gross (adjective)':
-``,
+`Gross is an adjective that means very unpleasant or disgusting. For example, if you see a pile of rotten eggs on the sidewalk, you might say "Ew, that's gross!" or if you smell someone's stinky feet, you might say "Yuck, that's gross!" Gross can also mean very large or excessive. For example, if you earn a lot of money from your job, you might say "Wow, that's gross!" or if you eat too much pizza, you might say "Ugh, that's gross!" Sometimes, gross can mean both unpleasant and large at the same time. For example, if you see a giant spider on the wall, you might say "Aaaah! That's gross!"`,
 /* 87 */
 'myth (noun)':
-``,
+`A myth is a story that people tell to explain things they don't understand, like why the seasons change or how babies are made. Some myths are about gods and goddesses who do amazing things like throwing lightning bolts or turning into animals. Other myths are just plain silly, like the one that says women are worse drivers than men or that Elvis Presley is still alive. Myths can be fun to read, but don't believe everything you hear. Sometimes a myth is just a myth.`,
 /* 88 */
 'intervention (noun)':
-``,
+`An intervention is when a group of people who care about you get together and tell you that you have a problem. Usually, the problem is something like drinking too much, gambling too much, or watching too much Netflix. The goal of an intervention is to help you realize that your problem is hurting yourself and others, and to convince you to get some help. Sometimes, an intervention works and you agree to change your ways. Other times, an intervention backfires and you end up hating everyone who tried to help you. Either way, it's usually awkward and uncomfortable for everyone involved.`,
 /* 89 */
 'incidence (noun)':
-``,
+`If you want to learn the meaning of 'incidence', you might be disappointed by the dictionary definitions. They are either too formal, too technical, or too boring. For example, one definition says that incidence is "the rate or range of occurrence or influence of something, especially of something unwanted" . Another one says that incidence is "the act or manner of impinging on or affecting by proximity or influence" . And a third one says that incidence is "the arrival of something (such as a ray of light) at a surface" . Yawn. But don't worry, I have a better way to explain 'incidence' to you. Imagine that you are walking on a sunny day and you see a puddle on the ground. You decide to jump into it and splash some water around. As you do so, you notice that the sun's rays reflect off the water and create a rainbow on a nearby wall. That's incidence! The sun's rays hitting the water are an example of incidence . The angle that they make with the water is called the angle of incidence . And the rainbow on the wall is an effect of incidence . Isn't that more fun than reading a dry definition? I hope this paragraph helps you understand what 'incidence' means. Just remember: incidence is when something hits something else and makes something happen. And sometimes, it can be beautiful.`,
 /* 90 */
 'raid (verb)':
-``,
+`Raiding is a verb that means to attack someone or something suddenly and unexpectedly, usually for a specific purpose. For example, you can raid a fridge to get some snacks, raid a bank to get some money, or raid a dungeon to get some loot. Raiding can also mean to steal something from someone else, like their employees, their members, or their cookies. Raiding is not to be confused with RAID, which is an abbreviation for redundant array of independent disks, a system that protects your data from corruption by spreading it across several disk drives. Unless you are raiding someone's RAID, in which case you are just being mean.`,
 /* 91 */
 'ruin (verb)':
-``,
+`To ruin something means to make it so bad that it loses all its value, pleasure, or usefulness. For example, you can ruin a cake by adding too much salt, or you can ruin a friendship by spreading nasty rumors. You can also ruin your own life by doing stupid things like gambling away all your money or dating your boss's spouse. But don't worry, if you ever feel like you've ruined everything, you can always blame someone else for it. That's what politicians do all the time!`,
 /* 92 */
 'dive (noun)':
-``,
+`A dive is a noun that can mean many things, depending on the context. For example, a dive can be a graceful jump into water, a thrilling plunge from an airplane, or a desperate lunge for a soccer ball. A dive can also be a sudden drop in value , such as when your stocks take a dive or your grades take a dive. A dive can also be an unpleasant place , such as a dirty bar or a shady hotel. Sometimes, people use the word dive to describe something they don't like, such as "This pizza is a dive" or "This movie is a dive". But don't let that stop you from enjoying your favorite dives!`,
 /* 93 */
 'so-called (adjective)':
 `Have you ever met someone who claims to be an expert on something but actually knows nothing about it? They are what we call so-called (adjective) people. For example, a so-called (adjective) chef who can't even boil an egg, or a so-called (adjective) singer who sounds like a dying cat. These people are usually very confident and arrogant, but they have no clue how ridiculous they look. They should really stop pretending and learn some humility.`,
 /* 94 */
 'premier (adjective)':
-``,
+`If you want to sound fancy and sophisticated, you can use the word 'premier' to describe something that is the best or most important of its kind. For example, you can say that the premier movie of the year is the one that made the most money, had the most explosions, or featured your favorite actor. Or you can say that the premier pizza place in town is the one that has the cheesiest crust, the spiciest sauce, or the fastest delivery. But be careful not to confuse 'premier' with 'primer', which is either a book that teaches you how to read or a coat of paint that prepares a surface for another layer. Unless you want to make a joke about how your primer book is the premier book in your library, or how your primer paint is the premier paint in your garage.`,
 /* 95 */
 'effectiveness (noun)':
-``,
+`Effectiveness is a noun that means how well something works. It's not to be confused with effective, which is an adjective that means having an effect. For example, an effective joke is one that makes people laugh, but its effectiveness depends on how hard they laugh. If they only chuckle politely, then it's not very effective. But if they roll on the floor and wet their pants, then it's very effective. Unless you're trying to impress them with your maturity, then it's not effective at all.`,
 /* 96 */
 'beneath (preposition)':
-``,
+`Beneath is a preposition that means under something else. For example, you might find a treasure chest beneath the ocean floor, or a monster beneath your bed. Beneath can also mean lower in rank or quality than something else. For example, you might think that eating broccoli is beneath you, or that your boss is beneath contempt. Beneath can also mean hidden or concealed by something else. For example, you might have a secret identity beneath your ordinary clothes, or a heart of gold beneath your grumpy attitude.`,
 /* 97 */
 'worthwhile (adjective)':
-``,
+`Worthwhile (adjective): Something that is worth your time, effort or money. For example, reading this paragraph is a worthwhile activity because it will teach you a new word and make you laugh at the same time. However, some people may have different opinions on what is worthwhile and what is not. For example, some people may think that watching cat videos is a worthwhile way to spend their free time, while others may think that it is a waste of time and bandwidth. Therefore, worthwhile is a subjective term that depends on your personal values and goals.`,
 /* 98 */
 'intake (noun)':
-``,
+`Intake is a noun that means the act or amount of taking in something, such as air, food, liquid, or gas. For example: - She heard a loud intake of breath when she revealed her secret; - He needs to reduce his intake of salt and sugar for his health; - The car has a faulty intake valve that needs to be replaced. A funny paragraph about intake might be: - Bob was on a diet and had to monitor his intake of calories very carefully. He used an app on his phone that scanned the barcode of every food item he ate and calculated how many calories he consumed. One day, he was feeling hungry and decided to treat himself to a chocolate bar. He scanned the barcode and waited for the app to tell him how many calories it had. To his horror, the app said: "Warning: This product contains 10,000 calories per serving. Your daily intake limit has been exceeded by 9,500 calories. Please consult your doctor immediately." Bob dropped the chocolate bar and ran to the bathroom, hoping to undo his mistake. He later found out that the app had a glitch and read the wrong barcode from a nearby crate of beer.`,
 /* 99 */
 'conscience (noun)':
-``,
+`Conscience (noun): A small voice in your head that tells you what you should or shouldn't do. Sometimes it sounds like your mom, sometimes it sounds like your teacher, and sometimes it sounds like a random celebrity. It can be helpful when you need guidance, but it can also be annoying when you want to have fun. Some people have a very loud conscience that makes them feel guilty all the time. Others have a very quiet conscience that lets them get away with anything. And some people have no conscience at all, which makes them either very successful or very dangerous.`,
 /* 100 */
 'reproduction (noun)':
-``,
+`Reproduction (noun) is the process of making more living things of the same kind. It usually involves two parents who love each other very much and decide to share a special hug. Sometimes it involves only one parent who splits into two or more parts. Sometimes it involves no parents at all and just happens by accident. Reproduction is very important for the survival of species, but it can also cause a lot of problems like overpopulation, diseases and awkward conversations.`,
 /* 101 */
 'charm (noun)':
 ``,
