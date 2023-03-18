@@ -78,19 +78,21 @@ function checkNullForSection2(){
 }
 
 /**/
-function copy(){
+let timeoutId;
+function pronounce(){
 
-    const text = checkNullForSection2();
-    if(text!== false){
-        navigator.clipboard.writeText(text);
-
-        const span = document.querySelector(".fade-copy");
-
+    if(checkNullForSection2() !== false){
+        // navigator.clipboard.writeText(text);
+        
+        const span = document.querySelector(".fade-pronounce");
+        span.innerHTML = pronunciationOf[current.innerHTML];
         span.classList.add("animate");
         span.style.visibility = 'visible';
         
-        
-        setTimeout(() => {
+        if (timeoutId) {
+          clearTimeout(timeoutId);
+        }
+        timeoutId = setTimeout(() => {
           span.classList.remove("animate");
           span.style.visibility = 'hidden';
         }, 2000);

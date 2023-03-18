@@ -9,10 +9,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
     <link rel="stylesheet" href="style2.css">
     <script src="./data/words.js"></script>
+    <script src="./data/pronunciations.js"></script>
 </head>
 <body>
     <div class="container">
-        <span class="fade-copy">Copied</span>
+        <span class="fade-pronounce"></span>
         <div class='top-icons'>
             <div class="top left" onclick="onlineTranslate(this)" style="cursor: pointer;" title="Go to Google Translate">
                 <img class='translate-img' src="./assets/google-translate-icon.jpg">
@@ -41,7 +42,7 @@
                 <button><a href="https://google.com">em</a></button> -->
             </section>
             <section id="section-2">
-                <img class="icon" onclick="copy()" src="./assets/bing-icon.png" alt="bing-icon" title="Copy">
+                <img class="icon" onclick="pronounce()" src="./assets/bing-icon.png" alt="bing-icon" title="Show pronunciation">
                 <p></p>
             </section>
         </article>
