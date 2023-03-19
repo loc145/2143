@@ -16,6 +16,7 @@ article {
 }
 
 #section-2{
+    position: relative;
     padding: 10px;
     /*background: linear-gradient(135deg, rgba(244,245,247,1) 0%, rgba(219,230,250,1) 100%);*/
     background-image: url(./assets/paper.gif);
@@ -173,6 +174,17 @@ mark{
 .animate {
     animation: fade-in-animation 1s forwards, fade-out-animation 1s forwards 1s;
 }
+
+
+#speak-icon{
+  width: 30px;
+  height: auto;
+  position: absolute;
+  top: 5px;
+  right: 20px;
+  cursor: pointer;
+}
+
 
 @keyframes fade-in-animation {
   from { top: 0; }
