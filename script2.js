@@ -39,13 +39,17 @@ function selected(button){
   const currentText = current.innerHTML.match(/^[a-zA-Z-]+/)[0];
   const CurrentText = currentText.charAt(0).toUpperCase() + currentText.slice(1);
 
-  const regex = new RegExp(`${currentText}`, 'g');
-  const Regex = new RegExp(`${CurrentText}`, 'g');
+  const regex = new RegExp(` ${currentText} `, 'g');
+  const Regex = new RegExp(`${CurrentText} `, 'g');
+  const dotSpaceRegex = new RegExp(` ${CurrentText} `, 'g');
 
+  //After translation, the text will be trimed, so I add space '&nbsp;' around it
   const text = words[button.innerHTML]
                 // .replace(/\n/g, '<br>')
-                .replace(regex, `<mark>${currentText}</mark>`)
-                .replace(Regex, `<mark>${CurrentText}</mark>`);
+                .replace(regex, `&nbsp;<mark>${currentText}</mark>&nbsp;`)
+                .replace(dotSpaceRegex, `&nbsp;<mark>${CurrentText}</mark>&nbsp;`)
+                .replace(Regex, `<mark>${CurrentText}</mark>&nbsp;`);
+                
   //Uppercase first character of each paragraphs
 
   // const paragraphs = text.split("<br><br><mark>");
@@ -66,9 +70,9 @@ function backHome(){
 
 /**/
 function checkNullForSection2(){
-  let c = document.querySelector('p').innerHTML
+  let c = document.querySelector('p').innerText;
                 // .replace(/<br>/g, '\n')
-                .replace(/<\/?mark>/g, '');
+                // .replace(/<\/?mark>/g, '');
   if(c == ''){
     alert('Please choose a word first.');
     return false;
@@ -100,13 +104,21 @@ function pronounce(){
 }
 
 
+/**/
+// function speak(text, lang) {
+//   const speech = new SpeechSynthesisUtterance(text);
+//   speech.lang = lang;
+//   speechSynthesis.speak(speech);
+// }
+
+
 
 /**/
 function onlineTranslate(name){
 
     const text = checkNullForSection2();
-    const textTranslated = /<font style="vertical-align: inherit;">/.test(text);
-    if(text!== false && textTranslated == false){
+    // const textTranslated = /<font style="vertical-align: inherit;">/.test(text);
+    if(text!== false/* && textTranslated == false*/){
           const width = 850;
           const height = 500;
 
@@ -125,9 +137,9 @@ function onlineTranslate(name){
           'popUpWindow',
           `width=${width}, height=${height}, top=${top}, left=${left},
           toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=yes, resizable=yes`); 
-    } else if(textTranslated == true){
+    } /*else if(textTranslated == true){
       alert("Please click 'Show original' button first.")
-    }
+    }*/
 }
 
 
