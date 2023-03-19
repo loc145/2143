@@ -39,16 +39,29 @@ function selected(button){
   const currentText = current.innerHTML.match(/^[a-zA-Z-]+/)[0];
   const CurrentText = currentText.charAt(0).toUpperCase() + currentText.slice(1);
 
-  const regex = new RegExp(` ${currentText} `, 'g');
-  const Regex = new RegExp(`${CurrentText} `, 'g');
-  const dotSpaceRegex = new RegExp(` ${CurrentText} `, 'g');
+  /*If the keyword = 'ant (noun)' then there are 6 cases to replace:
+      1.| ant |
 
-  //After translation, the text will be trimed, so I add space '&nbsp;' around it
+      2.|ant |
+
+      3.| antsss | => have extend
+
+      4.| Ant |
+
+      5.|Ant |
+
+      6.| Antsss |  => have extend
+  */
+
+  const regex1 = new RegExp(`${currentText}`, 'g');
+  const regex2 = new RegExp(`${CurrentText}`, 'g');
+
+  //After translation, the text will be trimed, so I add space '&ensp;' around it
   const text = words[button.innerHTML]
                 // .replace(/\n/g, '<br>')
-                .replace(regex, `&nbsp;<mark>${currentText}</mark>&nbsp;`)
-                .replace(dotSpaceRegex, `&nbsp;<mark>${CurrentText}</mark>&nbsp;`)
-                .replace(Regex, `<mark>${CurrentText}</mark>&nbsp;`);
+                .replace(regex1, `<mark>${currentText}</mark>`)
+                .replace(regex2, `<mark>${currentText}</mark>`)
+                .replace(/ /g, `&ensp;`);
                 
   //Uppercase first character of each paragraphs
 
@@ -105,11 +118,17 @@ function pronounce(){
 
 
 /**/
-// function speak(text, lang) {
-//   const speech = new SpeechSynthesisUtterance(text);
-//   speech.lang = lang;
-//   speechSynthesis.speak(speech);
-// }
+function speak() {
+  let checkLang = document.querySelector('p').innerHTML;
+  let text = document.querySelector('p').innerText;
+
+  let res = /istranslated|<\/font>/g.test(checkLang);
+
+
+  const speech = new SpeechSynthesisUtterance(text);
+  speech.lang = res? 'vi':'en';
+  speechSynthesis.speak(speech);
+}
 
 
 
