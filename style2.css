@@ -21,6 +21,7 @@ article {
     background-image: url(./assets/paper.gif);
     border-radius: 10px;
     margin-bottom: 70px;
+    border: 1px solid black;
 }
 
 
