@@ -53,25 +53,19 @@ function selected(button){
       6.| Antsss |  => have extend
   */
 
-  const regex1 = new RegExp(`${currentText}`, 'g');
-  const regex2 = new RegExp(`${CurrentText}`, 'g');
-
   //After translation, the text will be trimed, so I add space '&ensp;' around it
+  const regex1 = new RegExp(`${currentText}\\w*`, 'g');
+  const regex2 = new RegExp(`${CurrentText}\\w*`, 'g');
+
   const text = words[button.innerHTML]
-                // .replace(/\n/g, '<br>')
-                .replace(regex1, `<mark>${currentText}</mark>`)
-                .replace(regex2, `<mark>${currentText}</mark>`)
-                .replace(/ /g, `&ensp;`);
-                
-  //Uppercase first character of each paragraphs
+                      .replace(regex1, (match1) => {
+                                return `<mark>${match1}</mark>`;
+                              })
+                      .replace(regex2, (match2) => {
+                                return `<mark>${match2}</mark>`;
+                              })
+                      .replace(/ /g, `&ensp;`);
 
-  // const paragraphs = text.split("<br><br><mark>");
-
-  // for (let i in paragraphs) {
-  //   paragraphs[i] = paragraphs[i].charAt(0).toUpperCase() + paragraphs[i].slice(1);
-  // }
-
-  // const newText = paragraphs.join("<br><br><mark>");
 
   document.querySelector('p').innerHTML = text;
 }
