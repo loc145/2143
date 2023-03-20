@@ -2,8 +2,7 @@ const urlParams = new URLSearchParams(window.location.search);
 const index = urlParams.get('index');
 document.querySelector('.half-circle-text').innerHTML = index;
 
-
-/*generate buttons*/
+/*generate vocabularies*/
 
 for (let i = (index-1)*100; i < index*100; i++) {
 
@@ -19,67 +18,49 @@ for (let i = (index-1)*100; i < index*100; i++) {
 let previous = '';
 let current = '';
 
-/*generate story*/
+/*WHEN CLICK ON A VOCABULARY*/
 function selected(button){
-
   //Highlight previous selected words
   previous = current;
   if(previous != ''){
     previous.classList.remove('highlight-yellow');
     previous.classList.add('highlight-blue')
   }
-
   //Highlight current selected word
   current = button;
   current.classList.add('highlight-yellow');
-  
-  //
-  window.location.href = '#section-2';
 
+  //Paragraph processing...
+  window.location.href = '#section-2';
   const currentText = current.innerHTML.match(/^[a-zA-Z-]+/)[0];
   const CurrentText = currentText.charAt(0).toUpperCase() + currentText.slice(1);
-
   /*If the keyword = 'ant (noun)' then there are 6 cases to replace:
       1.| ant |
-
       2.|ant |
-
       3.| antsss | => have extend
-
       4.| Ant |
-
       5.|Ant |
-
       6.| Antsss |  => have extend
   */
-
-  //After translation, the text will be trimed, so I add space '&ensp;' around it
   const regex1 = new RegExp(`${currentText}\\w*`, 'g');
   const regex2 = new RegExp(`${CurrentText}\\w*`, 'g');
-
   const text = words[button.innerHTML]
+  //After translation, the text inside each tag will auto be trimed...
+  //Therefore, I add space around the vocabulary
                       .replace(regex1, (match1) => {
-                                return `<mark>${match1}</mark>`;
+                                return `_<mark>${match1}</mark>_`;
                               })
                       .replace(regex2, (match2) => {
-                                return `<mark>${match2}</mark>`;
+                                return `_<mark>${match2}</mark>_`;
                               })
-                      .replace(/ /g, `&ensp;`);
-
-
+  //I don't use &ensp; or &nbsp; because it will affect to context of whole paragraph while translation
   document.querySelector('p').innerHTML = text;
-}
-
-/**/
-function backHome(){
-    window.location.href = `index.html`;
 }
 
 /**/
 function checkNullForSection2(){
   let c = document.querySelector('p').innerText;
-                // .replace(/<br>/g, '\n')
-                // .replace(/<\/?mark>/g, '');
+
   if(c == ''){
     alert('Please choose a word first.');
     return false;
@@ -89,49 +70,14 @@ function checkNullForSection2(){
 }
 
 /**/
-let timeoutId;
-function pronounce(){
-
-    if(checkNullForSection2() !== false){
-        // navigator.clipboard.writeText(text);
-        
-        const span = document.querySelector(".fade-pronounce");
-        span.innerHTML = pronunciationOf[current.innerHTML];
-        span.classList.add("animate");
-        span.style.visibility = 'visible';
-        
-        if (timeoutId) {
-          clearTimeout(timeoutId);
-        }
-        timeoutId = setTimeout(() => {
-          span.classList.remove("animate");
-          span.style.visibility = 'hidden';
-        }, 2000);
-      }
-}
-
-
-/**/
-function speak() {
-  let checkLang = document.querySelector('p').innerHTML;
-  let text = document.querySelector('p').innerText;
-
-  let res = /istranslated|<\/font>/g.test(checkLang);
-
-
-  const speech = new SpeechSynthesisUtterance(text);
-  speech.lang = res? 'vi':'en';
-  speechSynthesis.speak(speech);
-}
-
-
-
-/**/
 function onlineTranslate(name){
 
     const text = checkNullForSection2();
-    // const textTranslated = /<font style="vertical-align: inherit;">/.test(text);
-    if(text!== false/* && textTranslated == false*/){
+
+    if(text!== false){
+          
+      console.log(text.replace(/ /g, '%20'))
+
           const width = 850;
           const height = 500;
 
@@ -150,11 +96,40 @@ function onlineTranslate(name){
           'popUpWindow',
           `width=${width}, height=${height}, top=${top}, left=${left},
           toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=yes, resizable=yes`); 
-    } /*else if(textTranslated == true){
-      alert("Please click 'Show original' button first.")
-    }*/
+    }
 }
 
+/**/
+let timeoutId;
+function pronounce(){
+    if(checkNullForSection2() !== false){
+        const span = document.querySelector(".fade-pronounce");
+        span.innerHTML = pronunciationOf[current.innerHTML];
+        span.classList.add("animate");
+        span.style.visibility = 'visible';
+        
+        if (timeoutId) {
+          clearTimeout(timeoutId);
+        }
+        timeoutId = setTimeout(() => {
+          span.classList.remove("animate");
+          span.style.visibility = 'hidden';
+        }, 2000);
+      }
+}
+
+/**/
+function speak() {
+  let checkLang = document.querySelector('p').innerHTML;
+  let text = document.querySelector('p').innerText;
+
+  let isVietnamese = /istranslated|<\/font>/g.test(checkLang);
+
+
+  const speech = new SpeechSynthesisUtterance(text);
+  speech.lang = isVietnamese? 'vi':'en';
+  speechSynthesis.speak(speech);
+}
 
 
 /**/
@@ -173,3 +148,8 @@ function step() {
     }
 }
 });
+
+/**/
+function backHome(){
+  window.location.href = `index.html`;
+}
