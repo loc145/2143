@@ -45,6 +45,7 @@ function selected(button){
   const regex1 = new RegExp(`${currentText}\\w*`, 'g');
   const regex2 = new RegExp(`${CurrentText}\\w*`, 'g');
   const text = words[button.innerHTML]
+                      .replace(/\n/g, '<br>')
   //After translation, the text inside each tag will auto be trimed...
   //Therefore, I add pseudo-space around the vocabulary
                       .replace(regex1, (match1) => {
@@ -52,8 +53,8 @@ function selected(button){
                               })
                       .replace(regex2, (match2) => {
                                 return `&#160;<mark>${match2}</mark>&#160;`;
-                              })
-                              
+                              });
+
   document.querySelector('p').innerHTML = text;
 }
 
@@ -69,7 +70,7 @@ function checkNullForSection2(){
   return c;
 }
 
-/**/
+/*This feature isn't useful any more, so I removed it
 function onlineTranslate(name){
 
     const text = checkNullForSection2();
@@ -98,7 +99,7 @@ function onlineTranslate(name){
           toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=yes, resizable=yes`); 
     }
 }
-
+*/
 /**/
 let timeoutId;
 function pronounce(){
