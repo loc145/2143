@@ -46,14 +46,14 @@ function selected(button){
   const regex2 = new RegExp(`${CurrentText}\\w*`, 'g');
   const text = words[button.innerHTML]
   //After translation, the text inside each tag will auto be trimed...
-  //Therefore, I add space around the vocabulary
+  //Therefore, I add pseudo-space around the vocabulary
                       .replace(regex1, (match1) => {
-                                return `<mark>_${match1}_</mark>`;
+                                return `&#160;<mark>${match1}</mark>&#160;`;
                               })
                       .replace(regex2, (match2) => {
-                                return `<mark>_${match2}_</mark>`;
+                                return `&#160;<mark>${match2}</mark>&#160;`;
                               })
-  //I don't use &ensp; or &nbsp; because it will affect to context of whole paragraph while translation
+                              
   document.querySelector('p').innerHTML = text;
 }
 
