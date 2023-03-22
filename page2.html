@@ -10,21 +10,22 @@
     <link rel="stylesheet" href="style2.css">
     <script src="./data/words.js"></script>
     <script src="./data/pronunciations.js"></script>
+
 </head>
 <body>
 
-    <div id="google_translate_element"></div>
+    <!-- <div id="google_translate_element"></div>
 
     <script type="text/javascript">
     function googleTranslateElementInit() {
       new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
     }
-    </script>
+    </script> -->
 
     <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
     <div class="container">
-        <span class="fade-pronounce"></span>
+        <span class="fade-drop"></span>
         <div class='top-icon' onclick="backHome()" style="cursor: pointer;" title="Back to Homepage">
             <span class="half-circle-text"></span>
         </div>
@@ -34,20 +35,19 @@
 		</button>
 
         <article>
-            <section class="section-1">
+            <section id="section-1">
                 <!-- buttons generate here -->
             </section>
 
             <section id="section-2">
-                <img class="bing-icon" onclick="pronounce()" src="./assets/bing-icon.png" alt="bing-icon" title="Show pronunciation">
+                <img class="bing-icon" onclick="partOfSpeech()" src="./assets/bing-icon.png" alt="bing-icon" title="Show part of speech">
                 <img src="assets/speak-icon.png" id="speak-icon" alt="speak-icon" title="Text-to-speech" onclick="speak()">
                 <p></p>
             </section>
-
+            <iframe></iframe>
         </article>
     </div>
 
     <script src="script2.js"></script>
-
 </body>
 </html>

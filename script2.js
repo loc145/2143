@@ -11,7 +11,7 @@ for (let i = (index-1)*100; i < index*100; i++) {
     button.innerHTML = Object.keys(words)[i];
     button.setAttribute('onclick', 'selected(this)');
     button.setAttribute('translate', 'no');
-    document.querySelector('.section-1').appendChild(button);
+    document.querySelector('#section-1').appendChild(button);
   }
 }
 
@@ -49,13 +49,16 @@ function selected(button){
   //After translation, the text inside each tag will auto be trimed...
   //Therefore, I add pseudo-space around the vocabulary
                       .replace(regex1, (match1) => {
-                                return `&#160;<mark>${match1}</mark>&#160;`;
+                                return `&#160;<mark translate='no'>${match1}</mark>&#160;`;
                               })
                       .replace(regex2, (match2) => {
-                                return `&#160;<mark>${match2}</mark>&#160;`;
+                                return `&#160;<mark translate='no'>${match2}</mark>&#160;`;
                               });
 
   document.querySelector('p').innerHTML = text;
+
+  let iFrame = document.querySelector('iframe');
+  iFrame.setAttribute('src', `https://tracau.vn/?s=${currentText}`);
 }
 
 /**/
@@ -102,10 +105,10 @@ function onlineTranslate(name){
 */
 /**/
 let timeoutId;
-function pronounce(){
+function partOfSpeech(){
     if(checkNullForSection2() !== false){
-        const span = document.querySelector(".fade-pronounce");
-        span.innerHTML = pronunciationOf[current.innerHTML];
+        const span = document.querySelector(".fade-drop");
+        span.innerHTML = current.innerHTML.match(/\((\w+)\)/)[1];
         span.classList.add("animate");
         span.style.visibility = 'visible';
         
