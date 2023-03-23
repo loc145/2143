@@ -33,18 +33,21 @@
 			<i class="fa-solid fa-chevron-up"></i>
 		</button>
 
-        <article>
-            <section id="section-1">
+        <div class="wrapper">
+            <div class="theTop">
                 <!-- buttons generate here -->
-            </section>
-
-            <section id="section-2">
-                <img class="bing-icon" onclick="partOfSpeech()" src="./assets/bing-icon.png" alt="bing-icon" title="Show part of speech">
-                <img src="assets/speak-icon.png" id="speak-icon" alt="speak-icon" title="Text-to-speech" onclick="speak()">
-                <p></p>
-            </section>
-            <iframe translate="no" id="myIframe"></iframe>
-        </article>
+            </div>
+            <div class="theButtom">
+                <div id="theLeft">
+                    <img class="bing-icon" onclick="partOfSpeech()" src="./assets/bing-icon.png" alt="bing-icon" title="Show part of speech">
+                    <img src="assets/speak-icon.png" id="speak-icon" alt="speak-icon" title="Text-to-speech" onclick="speak()">
+                    <p></p>
+                </div>
+                <div class="theRight">
+                    <iframe translate="no" id="myIframe"></iframe>
+                </div>
+            </div>
+        </div>
     </div>
 
     <script src="script2.js"></script>
