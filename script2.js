@@ -57,7 +57,7 @@ function selected(button){
 
   document.querySelector('p').innerHTML = text;
 
-  let iFrame = document.querySelector('iframe');
+  let iFrame = document.querySelector('#myIframe');
   iFrame.setAttribute('src', `https://tracau.vn/?s=${currentText}`);
 }
 
