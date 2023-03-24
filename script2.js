@@ -32,7 +32,7 @@ function selected(button){
 
   //Paragraph processing...
   const isMobile = () => /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
-  if(isMobile){
+  if(isMobile()){
     window.location.href = '#theLeft';
   }
   
