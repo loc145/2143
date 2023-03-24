@@ -31,7 +31,11 @@ function selected(button){
   current.classList.add('highlight-yellow');
 
   //Paragraph processing...
-  window.location.href = '#theLeft';
+  const isMobile = () => /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+  if(isMobile){
+    window.location.href = '#theLeft';
+  }
+  
   const currentText = current.innerHTML.match(/^[a-zA-Z-]+/)[0];
   const CurrentText = currentText.charAt(0).toUpperCase() + currentText.slice(1);
   /*If the keyword = 'ant (noun)' then there are 6 cases to replace:
