@@ -157,3 +157,13 @@ function step() {
 function backHome(){
   window.location.href = `index.html`;
 }
+
+/**/
+document.addEventListener('keydown', function(event){
+  if(event.code == 'ShiftLeft' || event.code == 'ShiftRight'){
+    partOfSpeech();
+  } else if(event.code == 'Space'){
+    event.preventDefault();
+    speak();
+  }
+})
