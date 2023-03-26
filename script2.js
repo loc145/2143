@@ -2,13 +2,21 @@ const urlParams = new URLSearchParams(window.location.search);
 const index = urlParams.get('index');
 document.querySelector('.half-circle-text').innerHTML = index;
 
-/*generate vocabularies*/
+const iFrame1 = document.querySelector('#myIframe1');
+const iFrame2 = document.querySelector('#myIframe2');
+const iFrame3 = document.querySelector('#myIframe3');
+iFrame3.setAttribute('style', 'display: none;');
+/*generate 100 vocabularies*/
 
 for (let i = (index-1)*100; i < index*100; i++) {
+  let vocabulary = Object.keys(word)[i];
+  if(vocabulary !== undefined){
+    let emVocabulary = vocabulary.replace(/\w+$/, (match)=>{
+      return `<em>${match}</em>`;
+    })
 
-  if(Object.keys(words)[i] !== undefined){
     const button = document.createElement("button");
-    button.innerHTML = Object.keys(words)[i];
+    button.innerHTML = emVocabulary;
     button.setAttribute('onclick', 'selected(this)');
     button.setAttribute('translate', 'no');
     document.querySelector('.theTop').appendChild(button);
@@ -17,7 +25,8 @@ for (let i = (index-1)*100; i < index*100; i++) {
 
 let previous = '';
 let current = '';
-
+let keyword = '';
+// const btnSwitch = document.getElementById('switchWebsite');
 /*WHEN CLICK ON A VOCABULARY*/
 function selected(button){
   //Highlight previous selected words
@@ -30,7 +39,7 @@ function selected(button){
   current = button;
   current.classList.add('highlight-yellow');
 
-  //Paragraph processing...
+  /*Paragraph processing...
   const isMobile = () => /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
   if(isMobile()){
     window.location.href = '#theLeft';
@@ -38,14 +47,14 @@ function selected(button){
   
   const currentText = current.innerHTML.match(/^[a-zA-Z-]+/)[0];
   const CurrentText = currentText.charAt(0).toUpperCase() + currentText.slice(1);
-  /*If the keyword = 'ant (noun)' then there are 6 cases to replace:
+  //If the keyword = 'ant (noun)' then there are 6 cases to replace:
       1.| ant |
       2.|ant |
       3.| antsss | => have extend
       4.| Ant |
       5.|Ant |
       6.| Antsss |  => have extend
-  */
+  
   const regex1 = new RegExp(`${currentText}\\w*`, 'g');
   const regex2 = new RegExp(`${CurrentText}\\w*`, 'g');
   const text = words[button.innerHTML]
@@ -60,12 +69,22 @@ function selected(button){
                               });
 
   document.querySelector('p').innerHTML = text;
+*/
 
-  let iFrame = document.querySelector('#myIframe');
-  iFrame.setAttribute('src', `https://tracau.vn/?s=${currentText}`);
+  //I want oxford, tracau scroll to #id when loaded
+  keyword = current.innerText.replace(/\s\w+$/, "");
+  let n = 1;
+  const originalLink = word[current.innerText];
+  const lastChar = originalLink.charAt(originalLink.length - 1);
+  if(!isNaN(lastChar)){
+    n = lastChar;
+  }
+  iFrame1.setAttribute('src', `${word[current.innerText]}#${keyword}_h_${n}`);
+  iFrame2.setAttribute('src', `https://tracau.vn/?s=${keyword}#tc-s`);
+  iFrame3.setAttribute('src', `https://www.google.com/search?tbm=isch&q=${keyword}#REsRA`)
 }
 
-/**/
+/*This feature isn't useful any more, so I removed it
 function checkNullForSection2(){
   let c = document.querySelector('p').innerText;
 
@@ -77,7 +96,7 @@ function checkNullForSection2(){
   return c;
 }
 
-/*This feature isn't useful any more, so I removed it
+
 function onlineTranslate(name){
 
     const text = checkNullForSection2();
@@ -106,8 +125,8 @@ function onlineTranslate(name){
           toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=yes, resizable=yes`); 
     }
 }
-*/
-/**/
+
+
 let timeoutId;
 function partOfSpeech(){
     if(checkNullForSection2() !== false){
@@ -126,7 +145,7 @@ function partOfSpeech(){
       }
 }
 
-/**/
+
 function speak() {
   let checkLang = document.querySelector('p').innerHTML;
   let text = document.querySelector('p').innerText;
@@ -138,7 +157,7 @@ function speak() {
   speech.lang = isVietnamese? 'vi':'en';
   speechSynthesis.speak(speech);
 }
-
+*/
 
 /**/
 const scrollToTopButton = document.getElementById('scrollToTop');
@@ -162,12 +181,24 @@ function backHome(){
   window.location.href = `index.html`;
 }
 
-/**/
-document.addEventListener('keydown', function(event){
-  if(event.code == 'ShiftLeft' || event.code == 'ShiftRight'){
-    partOfSpeech();
-  } else if(event.code == 'Space'){
-    event.preventDefault();
-    speak();
+function switchWebsite(){
+  const styleIframe3 = iFrame3.getAttribute('style');
+  if(styleIframe3 == 'display: none;'){
+    iFrame2.setAttribute('style', 'display: none;');
+    iFrame3.setAttribute('style', "");
+  } else{
+    iFrame2.setAttribute('style', "");
+    iFrame3.setAttribute('style', 'display: none;');
   }
-})
+}
+
+
+/*document.addEventListener('keydown', function(event){
+  console.log(event.code);
+  if(event.code == 'Enter' || event.code == 'NumpadEnter'){
+    switchWebsite();
+  }else if(event.code == 'Space'){
+    event.preventDefault();
+    switchWebsite();
+  }
+})*/
