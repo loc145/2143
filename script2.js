@@ -73,13 +73,10 @@ function selected(button){
 
   //I want oxford, tracau scroll to #id when loaded
   keyword = current.innerText.replace(/\s\w+$/, "");
-  let n = 1;
   const originalLink = word[current.innerText];
-  const lastChar = originalLink.charAt(originalLink.length - 1);
-  if(!isNaN(lastChar)){
-    n = lastChar;
-  }
-  iFrame1.setAttribute('src', `${word[current.innerText]}#${keyword}_h_${n}`);
+  const keywordWithNumber = originalLink.match(/\/(\w+?)$/)[1];
+  
+  iFrame1.setAttribute('src', `${word[current.innerText]}#${keywordWithNumber}`);
   iFrame2.setAttribute('src', `https://tracau.vn/?s=${keyword}#tc-s`);
   iFrame3.setAttribute('src', `https://www.google.com/search?tbm=isch&q=${keyword}#REsRA`)
 }
