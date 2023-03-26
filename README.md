@@ -1,9 +1,10 @@
 # 2143
-Learn 2150 words from 'Oxford 5000 excluded 3000' through a short paragraph in a funny style 😂 (composer: [BingAI](https://blogs.microsoft.com/blog/2023/02/07/reinventing-search-with-a-new-ai-powered-microsoft-bing-and-edge-your-copilot-for-the-web/))<br>
+Learn 2143 words from 'Oxford 5000 excluded 3000' through (oxfordlearnersdictionaries.com)[https://www.oxfordlearnersdictionaries.com/wordlists/oxford3000-5000], (tracau.vn)[https://tracau.vn/index.html] and google image<br>
 Let visit: https://loc145.github.io/2143/<br>
 Tips:<br>
 + Tap on shield icon to back to Homepage<br>
-+ Tap on Bing icon (or press Shift key) to display part of speech of current selection<br>
-+ Tap on Speaker (or press Space key) to speak the paragraph out.
++ 'Alt + ⬅/➡' to go back/forward the webpage that you're activating<br>
++ Tap on 'switch' button to switch monitor between tracau.vn and google image<br>
++ Tap on search box of google image to see the relative trending about your word (this would make your learning more exciting).
 
 Hope this helps!
