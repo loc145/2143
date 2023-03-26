@@ -13,7 +13,7 @@
 </head>
 <body>
 
-    <div id="google_translate_element"></div>
+    <!-- <div id="google_translate_element"></div>
 
     <script type="text/javascript">
     function googleTranslateElementInit() {
@@ -21,7 +21,7 @@
     }
     </script>
 
-    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script> -->
 
     <div class="container">
         <span class="fade-drop"></span>
@@ -35,16 +35,19 @@
 
         <div class="wrapper">
             <div class="theTop">
-                <!-- buttons generate here -->
+                <!-- 100 words generate here -->
             </div>
             <div class="theButtom">
                 <div id="theLeft">
-                    <img class="bing-icon" onclick="partOfSpeech()" src="./assets/bing-icon.png" alt="bing-icon" title="Show part of speech">
+                    <!-- <img class="bing-icon" onclick="partOfSpeech()" src="./assets/bing-icon.png" alt="bing-icon" title="Show part of speech">
                     <img src="assets/speak-icon.png" id="speak-icon" alt="speak-icon" title="Text-to-speech" onclick="speak()">
-                    <p></p>
+                    <p></p> -->
+                    <iframe translate="no" id="myIframe1"></iframe>
                 </div>
                 <div class="theRight">
-                    <iframe translate="no" id="myIframe"></iframe>
+                    <iframe translate="no" id="myIframe2"></iframe>
+                    <iframe translate="no" id="myIframe3"></iframe>
+                    <button id="switchWebsite" onclick="switchWebsite()">switch</button>
                 </div>
             </div>
         </div>
