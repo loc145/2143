@@ -78,7 +78,13 @@ function selected(button){
   
   iFrame1.setAttribute('src', `${word[current.innerText]}#${keywordWithNumber}`);
   iFrame2.setAttribute('src', `https://tracau.vn/?s=${keyword}#tc-s`);
-  iFrame3.setAttribute('src', `https://www.google.com/search?tbm=isch&q=${keyword}#REsRA`)
+  iFrame3.setAttribute('src', `https://www.google.com/search?tbm=isch&q=${keyword}`);
+
+  //Copy to clipboard
+  let textForClipboard = (str) => {
+    return `trả lời bằng tiếng Việt câu hỏi sau: "${str.match(/^[a-zA-Z-]+/)[0]} là gì khi được sử dụng như một ${str.match(/\w+$/)[0]}?".`;
+  }
+  navigator.clipboard.writeText(textForClipboard(current.innerText));
 }
 
 /*This feature isn't useful any more, so I removed it
