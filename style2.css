@@ -12,6 +12,7 @@
     border: 1px solid black;
     width: 100%;
     height: 600px;
+    position: relative;
 }
 
 /* .bing-icon{
@@ -116,7 +117,7 @@ em{
     font-size: 20px;
   }
 
-  .fade-drop {
+  /* .fade-drop {
   width: 100px;
   height: 50px;
   opacity: 0.8;
@@ -131,24 +132,25 @@ em{
   visibility: hidden;
 
   z-index: 9999;
-}
+} */
 
-.animate {
+/* .animate {
     animation: fade-in-animation 1s forwards, fade-out-animation 1s forwards 1s;
-}
+} */
 
-#speak-icon{
+/* #speak-icon{
   width: 30px;
   height: auto;
   position: absolute;
   top: 5px;
   right: 20px;
   cursor: pointer;
-}
+} */
 
 #myIframe1,
 #myIframe2,
-#myIframe3{
+#myIframe3,
+#myIframe4{
   width: 100%;
   height: 600px;
   border: 1px solid black;
@@ -177,7 +179,12 @@ em{
   left: 10px;
   top: 10px;
 }
-@keyframes fade-in-animation {
+#switchWebsite2{
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+/* @keyframes fade-in-animation {
   from { top: 0; }
   to { top: 50px; }
 }
@@ -185,4 +192,4 @@ em{
 @keyframes fade-out-animation {
   from { opacity: 0.8; }
   to { opacity: 0; }
-}
+} */

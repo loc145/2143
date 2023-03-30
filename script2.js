@@ -5,7 +5,9 @@ document.querySelector('.half-circle-text').innerHTML = index;
 const iFrame1 = document.querySelector('#myIframe1');
 const iFrame2 = document.querySelector('#myIframe2');
 const iFrame3 = document.querySelector('#myIframe3');
+const iFrame4 = document.querySelector('#myIframe4');
 iFrame3.setAttribute('style', 'display: none;');
+iFrame4.setAttribute('style', 'display: none;');
 /*generate 100 vocabularies*/
 
 for (let i = (index-1)*100; i < index*100; i++) {
@@ -79,7 +81,7 @@ function selected(button){
   iFrame1.setAttribute('src', `${word[current.innerText]}#${keywordWithNumber}`);
   iFrame2.setAttribute('src', `https://tracau.vn/?s=${keyword}#tc-s`);
   iFrame3.setAttribute('src', `https://www.google.com/search?tbm=isch&q=${keyword}`);
-
+  iFrame4.setAttribute('src', `https://dictionary.cambridge.org/vi/dictionary/english/${keyword}`);                       
   //Copy to clipboard
   let textForClipboard = (str) => {
     return `trả lời bằng tiếng Việt câu hỏi sau: "${str.match(/^[a-zA-Z-]+/)[0]} là gì khi được sử dụng như một ${str.match(/\w+$/)[0]}?".`;
@@ -195,6 +197,16 @@ function switchWebsite(){
   }
 }
 
+function switchWebsite2(){
+  const styleIframe4 = iFrame4.getAttribute('style');
+  if(styleIframe4 == 'display: none;'){
+    iFrame1.setAttribute('style', 'display: none;');
+    iFrame4.setAttribute('style', "");
+  } else{
+    iFrame1.setAttribute('style', "");
+    iFrame4.setAttribute('style', 'display: none;');
+  }
+}
 
 /*document.addEventListener('keydown', function(event){
   console.log(event.code);
