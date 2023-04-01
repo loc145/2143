@@ -1,6 +1,7 @@
 const urlParams = new URLSearchParams(window.location.search);
 const index = urlParams.get('index');
 document.querySelector('.half-circle-text').innerHTML = index;
+const isMobile = () => /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
 
 const iFrame1 = document.querySelector('#myIframe1');
 const iFrame2 = document.querySelector('#myIframe2');
@@ -85,7 +86,7 @@ function selected(button){
     return `trả lời bằng tiếng Việt câu hỏi sau: "${str.match(/^[a-zA-Z-]+/)[0]}" là gì khi được sử dụng như một ${str.match(/\w+$/)[0]}?.`;
   }
   navigator.clipboard.writeText(textForClipboard(current.innerText));
-  tiktok(keyword);
+  if(!isMobile()){tiktok(keyword)}
 }
 
 /*This feature isn't useful any more, so I removed it
