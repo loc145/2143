@@ -184,6 +184,14 @@ em{
   right: 10px;
   top: 10px;
 }
+/* #myTiktok{
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  background-color: #121212;
+  color: #fff;
+  text-shadow: 1px 0px #FF0050, -1px -1px #00FAF0;
+} */
 /* @keyframes fade-in-animation {
   from { top: 0; }
   to { top: 50px; }

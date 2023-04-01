@@ -8,15 +8,14 @@ const iFrame3 = document.querySelector('#myIframe3');
 const iFrame4 = document.querySelector('#myIframe4');
 iFrame3.setAttribute('style', 'display: none;');
 iFrame4.setAttribute('style', 'display: none;');
-/*generate 100 vocabularies*/
 
+/*generate 100 vocabularies*/
 for (let i = (index-1)*100; i < index*100; i++) {
   let vocabulary = Object.keys(word)[i];
   if(vocabulary !== undefined){
     let emVocabulary = vocabulary.replace(/\w+$/, (match)=>{
       return `<em>${match}</em>`;
     })
-
     const button = document.createElement("button");
     button.innerHTML = emVocabulary;
     button.setAttribute('onclick', 'selected(this)');
@@ -28,9 +27,8 @@ for (let i = (index-1)*100; i < index*100; i++) {
 let previous = '';
 let current = '';
 let keyword = '';
-// const btnSwitch = document.getElementById('switchWebsite');
 /*WHEN CLICK ON A VOCABULARY*/
-function selected(button){
+function selected(button){  
   //Highlight previous selected words
   previous = current;
   if(previous != ''){
@@ -81,57 +79,27 @@ function selected(button){
   iFrame1.setAttribute('src', `${word[current.innerText]}#${keywordWithNumber}`);
   iFrame2.setAttribute('src', `https://tracau.vn/?s=${keyword}#tc-s`);
   iFrame3.setAttribute('src', `https://www.google.com/search?tbm=isch&q=${keyword}`);
-  iFrame4.setAttribute('src', `https://dictionary.cambridge.org/vi/dictionary/english/${keyword}`);                       
+  iFrame4.setAttribute('src', `https://dictionary.cambridge.org/vi/dictionary/english/${keyword}`);                      
   //Copy to clipboard
   let textForClipboard = (str) => {
-    return `trả lời bằng tiếng Việt câu hỏi sau: "${str.match(/^[a-zA-Z-]+/)[0]} là gì khi được sử dụng như một ${str.match(/\w+$/)[0]}?".`;
+    return `trả lời bằng tiếng Việt câu hỏi sau: "${str.match(/^[a-zA-Z-]+/)[0]}" là gì khi được sử dụng như một ${str.match(/\w+$/)[0]}?.`;
   }
   navigator.clipboard.writeText(textForClipboard(current.innerText));
+  tiktok(keyword);
 }
 
 /*This feature isn't useful any more, so I removed it
 function checkNullForSection2(){
   let c = document.querySelector('p').innerText;
-
   if(c == ''){
     alert('Please choose a word first.');
     return false;
   }
-    
   return c;
 }
+*/
 
-
-function onlineTranslate(name){
-
-    const text = checkNullForSection2();
-
-    if(text!== false){
-          
-      console.log(text.replace(/ /g, '%20'))
-
-          const width = 850;
-          const height = 500;
-
-          const top = Math.floor(screen.height/2 - height/2) - 100;
-          const left = Math.floor(screen.width/2 - width/2);
-
-          let url;
-          if(name.classList[1] == 'left'){
-            url = `https://translate.google.com/?hl=vi&tab=TT&sl=en&tl=vi&text=${text}&op=translate`;
-          } else if(name.classList[1] == 'right'){
-            url = `https://www.bing.com/translator?from=en&to=vi&text=${text}`;
-          }
-
-          window.open(
-          url,
-          'popUpWindow',
-          `width=${width}, height=${height}, top=${top}, left=${left},
-          toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=yes, resizable=yes`); 
-    }
-}
-
-
+/*
 let timeoutId;
 function partOfSpeech(){
     if(checkNullForSection2() !== false){
@@ -150,27 +118,33 @@ function partOfSpeech(){
       }
 }
 
-
 function speak() {
   let checkLang = document.querySelector('p').innerHTML;
   let text = document.querySelector('p').innerText;
-
   let isVietnamese = /istranslated|<\/font>/g.test(checkLang);
-
 
   const speech = new SpeechSynthesisUtterance(text);
   speech.lang = isVietnamese? 'vi':'en';
   speechSynthesis.speak(speech);
 }
 */
-
+function tiktok(keyQuery){
+    const width = 500;
+    const height = 700;
+    const top = Math.floor(screen.height/2 - height/2) - 100;
+    const left = Math.floor(screen.width/2 - width/2);
+    let url = `https://www.tiktok.com/search/video?q=${keyQuery}`;
+    window.open(
+    url,
+    'popUpWindow',
+    `width=${width}, height=${height}, top=${top}, left=${left},
+    toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=yes, resizable=yes`); 
+}
 /**/
 const scrollToTopButton = document.getElementById('scrollToTop');
-
 scrollToTopButton.addEventListener('click', () => {
 const scrollStep = -window.scrollY / (500 / 15); // 500ms duration, 15ms interval
 let scrollAnimation = requestAnimationFrame(step);
-
 function step() {
     if (window.scrollY === 0) {
     cancelAnimationFrame(scrollAnimation);
@@ -207,7 +181,6 @@ function switchWebsite2(){
     iFrame4.setAttribute('style', 'display: none;');
   }
 }
-
 /*document.addEventListener('keydown', function(event){
   console.log(event.code);
   if(event.code == 'Enter' || event.code == 'NumpadEnter'){
