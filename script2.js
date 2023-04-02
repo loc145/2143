@@ -76,8 +76,8 @@ function selected(button){
   //I want oxford, tracau scroll to #id when loaded
   
   // keyword = current.innerText.replace(/\s\w+$/, "");
-  let currentObjKey = Object.keys(word)[current.id];
-  let currentObjValue = word[currentObjKey];
+  const currentObjKey = Object.keys(word)[current.id];
+  const currentObjValue = word[currentObjKey];
   keyword = currentObjKey.replace(/\s\w+$/, "");
   const keywordWithNumber = currentObjValue.match(/\/(\w+?)$/)[1];
   
@@ -86,7 +86,7 @@ function selected(button){
   iFrame3.setAttribute('src', `https://www.google.com/search?tbm=isch&q=${keyword}`);
   iFrame4.setAttribute('src', `https://dictionary.cambridge.org/vi/dictionary/english/${keyword}`);                      
   //Copy to clipboard
-  let textForClipboard = (str) => {
+  const textForClipboard = (str) => {
     return `trả lời bằng tiếng Việt câu hỏi sau: "${str.match(/^[a-zA-Z-]+/)[0]}" là gì khi được sử dụng như một ${str.match(/\w+$/)[0]}?.`;
   }
   navigator.clipboard.writeText(textForClipboard(currentObjKey));
