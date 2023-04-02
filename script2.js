@@ -21,6 +21,12 @@ for (let i = (index-1)*100; i < index*100; i++) {
     button.innerHTML = emVocabulary;
     button.setAttribute('onclick', 'selected(this)');
     button.setAttribute('translate', 'no');
+    button.addEventListener("contextmenu", function(event) {
+      // Prevent the default context menu from appearing
+      event.preventDefault();
+      let i = button.innerText.match(/^[a-zA-Z-]+/)[0];
+      navigator.clipboard.writeText(i);
+    });
     document.querySelector('.theTop').appendChild(button);
   }
 }
