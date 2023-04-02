@@ -19,6 +19,7 @@ for (let i = (index-1)*100; i < index*100; i++) {
     })
     const button = document.createElement("button");
     button.innerHTML = emVocabulary;
+    button.setAttribute('id', i);
     button.setAttribute('onclick', 'selected(this)');
     // button.setAttribute('translate', 'no');
     document.querySelector('.theTop').appendChild(button);
@@ -73,11 +74,14 @@ function selected(button){
 */
 
   //I want oxford, tracau scroll to #id when loaded
-  keyword = current.innerText.replace(/\s\w+$/, "");
-  const originalLink = word[current.innerText];
-  const keywordWithNumber = originalLink.match(/\/(\w+?)$/)[1];
   
-  iFrame1.setAttribute('src', `${word[current.innerText]}#${keywordWithNumber}`);
+  // keyword = current.innerText.replace(/\s\w+$/, "");
+  let currentObjKey = Object.keys(word)[current.id];
+  let currentObjValue = word[currentObjKey];
+  keyword = currentObjKey.replace(/\s\w+$/, "");
+  const keywordWithNumber = currentObjValue.match(/\/(\w+?)$/)[1];
+  
+  iFrame1.setAttribute('src', `${currentObjValue}#${keywordWithNumber}`);
   iFrame2.setAttribute('src', `https://tracau.vn/?s=${keyword}#tc-s`);
   iFrame3.setAttribute('src', `https://www.google.com/search?tbm=isch&q=${keyword}`);
   iFrame4.setAttribute('src', `https://dictionary.cambridge.org/vi/dictionary/english/${keyword}`);                      
@@ -85,7 +89,7 @@ function selected(button){
   let textForClipboard = (str) => {
     return `trả lời bằng tiếng Việt câu hỏi sau: "${str.match(/^[a-zA-Z-]+/)[0]}" là gì khi được sử dụng như một ${str.match(/\w+$/)[0]}?.`;
   }
-  navigator.clipboard.writeText(textForClipboard(current.innerText));
+  navigator.clipboard.writeText(textForClipboard(currentObjKey));
   if(!isMobile()){tiktok(keyword)}
 }
 
