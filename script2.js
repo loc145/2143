@@ -19,7 +19,6 @@ for (let i = (index-1)*100; i < index*100; i++) {
     })
     const button = document.createElement("button");
     button.innerHTML = emVocabulary;
-    button.setAttribute('id', i);
     button.setAttribute('onclick', 'selected(this)');
     // button.setAttribute('translate', 'no');
     document.querySelector('.theTop').appendChild(button);
@@ -76,7 +75,7 @@ function selected(button){
   //I want oxford, tracau scroll to #id when loaded
   
   // keyword = current.innerText.replace(/\s\w+$/, "");
-  const currentObjKey = Object.keys(word)[current.id];
+  const currentObjKey = current.innerText;
   const currentObjValue = word[currentObjKey];
   keyword = currentObjKey.replace(/\s\w+$/, "");
   const keywordWithNumber = currentObjValue.match(/\/(\w+?)$/)[1];
