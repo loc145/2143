@@ -178,11 +178,13 @@ em{
   position: absolute;
   left: 10px;
   top: 10px;
+  height: 50px;
 }
 #switchWebsite2{
   position: absolute;
   right: 10px;
   top: 10px;
+  height: 50px;
 }
 /* #myTiktok{
   position: absolute;
