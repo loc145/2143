@@ -81,8 +81,8 @@ function selected(button){
   const keywordWithNumber = currentObjValue.match(/\/(\w+?)$/)[1];
   
   iFrame1.setAttribute('src', `${currentObjValue}#${keywordWithNumber}`);
-  iFrame2.setAttribute('src', `https://tracau.vn/?s=${keyword}#tc-s`);
-  iFrame3.setAttribute('src', `https://www.google.com/search?tbm=isch&q=${keyword}`);
+  iFrame2.setAttribute('src', `https://www.google.com/search?tbm=isch&q=${keyword}`);
+  iFrame3.setAttribute('src', `https://tracau.vn/?s=${keyword}#tc-s`);
   iFrame4.setAttribute('src', `https://dictionary.cambridge.org/vi/dictionary/english/${keyword}`);                      
   //Copy to clipboard
   const textForClipboard = (str) => {
