@@ -20,7 +20,10 @@ for (let i = (index-1)*100; i < index*100; i++) {
     const button = document.createElement("button");
     button.innerHTML = emVocabulary;
     button.setAttribute('onclick', 'selected(this)');
-    // button.setAttribute('translate', 'no');
+    button.oncontextmenu = function() {
+      navigator.clipboard.writeText(this.innerText.replace(/.\w+$/, "") + ' _lingoes');
+      return false; // Prevents the context menu from appearing
+    }
     document.querySelector('.theTop').appendChild(button);
   }
 }
